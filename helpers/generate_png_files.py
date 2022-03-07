@@ -3,9 +3,9 @@ import os.path
 import pysvg.parser as pyp
 
 
-class GenerateAction:
+class GeneratePNGFiles:
 
-    def generate_action_one_character(self, action, character):
+    def generate_png_one_character(self, action, character):
         bb = self.check_if_action_exist(self, action, character)
         self.character_folder_path = f"./../graphics/characters/{character}"
         template = pyp.parse(f"./../graphics/actions_template/{action}.svg")
@@ -20,6 +20,11 @@ class GenerateAction:
             for i in range(1, phases_amount):
                 phase = template.getElementAt(i)
                 place_to_paste = phase.getElementByID(part)[0].getElementAt(0)
+
+                try:
+                    place_to_paste.getAttributes()["transform"] = part_to_paste.getAttributes()["transform"]
+                except KeyError:
+                    print(f"Part {part} has no own transform to paste to template file")
 
                 for j in range(part_group_number):
                     place_to_paste.addElement(part_to_paste.getElementAt(j))
@@ -41,4 +46,4 @@ class GenerateAction:
         return os.path.isfile(f"./../graphics/characters/{character}/{character}_{action}.png")
 
 
-GenerateAction.generate_action_one_character(GenerateAction, "walk1", "my_hero")
+GeneratePNGFiles.generate_png_one_character(GeneratePNGFiles, "walk3", "bandit")
