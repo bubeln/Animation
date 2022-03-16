@@ -44,7 +44,8 @@
     <g
        inkscape:groupmode="layer"
        id="leg_right"
-       inkscape:label="nogaR">
+       inkscape:label="nogaR"
+       transform="translate(50, 150) rotate(-15)">
       <g
          id="g52468"
          inkscape:transform-center-x="0.00082198535"
@@ -54,7 +55,8 @@
     <g
        inkscape:groupmode="layer"
        id="arm_left"
-       inkscape:label="rekaL">
+       inkscape:label="rekaL"
+       transform="translate(-30, 77) rotate(-10)">
       <g
          id="g31247"
          inkscape:transform-center-x="18.847115"
@@ -63,18 +65,9 @@
     </g>
     <g
        inkscape:groupmode="layer"
-       id="arm_right"
-       inkscape:label="rekaR">
-      <g
-         id="g47602"
-         inkscape:transform-center-x="-6.5387951"
-         inkscape:transform-center-y="33.463246">
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
        id="leg_left"
-       inkscape:label="nogaL">
+       inkscape:label="nogaL"
+       transform="translate(30, 140) rotate(10)">
       <g
          id="g48357"
          inkscape:transform-center-x="7.3090003"
@@ -84,15 +77,28 @@
     <g
        inkscape:groupmode="layer"
        id="torso"
-       inkscape:label="torso">
+       inkscape:label="torso"
+       transform="translate(2, 45)">
       <g
          id="g20642">
       </g>
     </g>
     <g
+       inkscape:groupmode="layer"
+       id="arm_right"
+       inkscape:label="rekaR"
+       transform="translate(70, 55) rotate(15)">
+      <g
+         id="g47602"
+         inkscape:transform-center-x="-6.5387951"
+         inkscape:transform-center-y="33.463246">
+      </g>
+    </g>
+    <g
        inkscape:label="glowa"
        inkscape:groupmode="layer"
-       id="head">
+       id="head"
+       transform="translate(40, 0)">
       <g
          id="g19121">
       </g>
@@ -106,63 +112,63 @@
     <g
        inkscape:groupmode="layer"
        id="leg_right"
-       inkscape:label="nogaR">
+       inkscape:label="nogaR"
+       transform="translate(-65, 145)">
       <g
-         id="g621"
-         inkscape:transform-center-x="-16.754304"
-         inkscape:transform-center-y="69.270185"
-         transform="rotate(-13.40186,203.01401,-648.13512)">
+         id="g52468"
+         inkscape:transform-center-x="0.00082198535"
+         inkscape:transform-center-y="70.712984">
       </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="arm_left"
-       inkscape:label="rekaL">
+       inkscape:label="rekaL"
+       transform="translate(-150, 67)">
       <g
-         id="g631"
-         inkscape:transform-center-x="1.506359"
-         inkscape:transform-center-y="32.689184"
-         transform="translate(150, 45) rotate(-29.144218)">
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="leg_left"
-       inkscape:label="nogaL">
-      <g
-         id="g649"
-         inkscape:transform-center-x="20.833518"
-         inkscape:transform-center-y="69.10847"
-         transform="translate(218, -15) rotate(10.76619)">
+         id="g31247"
+         inkscape:transform-center-x="18.847115"
+         inkscape:transform-center-y="26.539816">
       </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="arm_right"
-       inkscape:label="rekaR">
+       inkscape:label="rekaR"
+       transform="translate(-50, 60)">
       <g
-         id="g641"
-         inkscape:transform-center-x="-15.826663"
-         inkscape:transform-center-y="50.536668"
-         transform="translate(205, -15) rotate(10)">
+         id="g47602"
+         inkscape:transform-center-x="-6.5387951"
+         inkscape:transform-center-y="33.463246">
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="leg_left"
+       inkscape:label="nogaL"
+       transform="translate(-95, 140)">
+      <g
+         id="g48357"
+         inkscape:transform-center-x="7.3090003"
+         inkscape:transform-center-y="71.924882">
       </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="torso"
-       inkscape:label="torso">
+       inkscape:label="torso"
+       transform="translate(-118, 45)">
       <g
-         id="g661"
-         transform="translate(187.12088)">
+         id="g20642">
       </g>
     </g>
     <g
-            inkscape:label="glowa"
-            inkscape:groupmode="layer"
-            id="head">
+       inkscape:label="glowa"
+       inkscape:groupmode="layer"
+       id="head"
+       transform="translate(-80, 0)">
       <g
-              id="g669"
-              transform="translate(187.12088)">
+         id="g19121">
       </g>
     </g>
   </g>

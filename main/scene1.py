@@ -66,7 +66,7 @@ class Scene1(ac.Window):
 
 
 def main():
-    window = Scene1(1000, 720, "Scene no. 1")
+    window = Scene1(1000, 720, "SceneControler no. 1")
     window.setup()
     ac.run()
 

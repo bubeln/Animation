@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="common_man_arm_left.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 56.42647 109.01812"
+   height="109.01812mm"
+   width="56.426472mm"
+   inkscape:export-filename="C:\Users\260862\Desktop\bartender.png"
+   inkscape:export-xdpi="241.905"
+   inkscape:export-ydpi="241.905"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath4045"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path4047"
+         d="M 87.197134,57.598109 C 88.69643,71.309833 86.336415,84.020996 68.797741,92.79695 L 14.399527,175.72756 -18.399396,142.39532 27.465763,50.665004 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="705"
+     inkscape:window-width="1366"
+     inkscape:snap-global="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-others="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer4"
+     inkscape:document-units="mm"
+     inkscape:cy="352.90462"
+     inkscape:cx="79.424009"
+     inkscape:zoom="0.61064659"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0" />
+  <g
+     style="display:inline"
+     inkscape:label="reka1"
+     id="layer4"
+     inkscape:groupmode="layer">
+    <g
+        id="g28"
+        transform="translate(-20.480936,-67.128329)"
+    inkscape:transform-center-x="21.762066"
+       inkscape:transform-center-y="43.524132">
+      <path
+         sodipodi:nodetypes="ccccczcccc"
+         id="path895-3-2-1-0"
+         d="m 61.428465,111.81624 -22.645263,40.11723 -2.200424,0.46315 -5.304608,4.5515 c 1.82808,5.56907 3.904683,6.98198 8.916591,9.8583 0,0 1.576207,-5.96465 2.766733,-7.59044 1.190527,-1.6258 30.952798,-41.69971 30.952798,-41.69971 8.737106,-51.990806 0.06715,-34.291181 8.58788,-54.328636 -13.513928,-3.693838 -18.258695,6.694799 -19.59334,35.360082 z"
+         style="fill:#f8b68a;fill-opacity:1;stroke:none;stroke-width:0.25718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#eedcd1;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 55.009959,114.59089 c -4.144455,8.28421 -7.115514,16.69459 -8.873247,18.29835 -1.757731,1.60375 -8.238303,16.48393 -8.238303,16.48393 3.740907,2.97762 1.184345,4.58618 11.550933,4.76201 0,0 5.967117,-11.5231 10.78835,-16.76103 C 65.058907,132.1362 76.50781,114.8307 76.50781,114.8307 85.72119,76.899571 94.453396,70.38835 80.107766,59.243947 59.521396,47.816048 60.616166,107.39787 58.881873,108.37348 Z"
+         id="path1422-5-0-1-2"
+         sodipodi:nodetypes="czcczcccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         style="fill:#f8b68a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 43.137187,156.90221 c -0.649376,6.5052 1.516278,7.82329 1.516278,7.82329 0,0 -2.581646,3.0675 -0.06315,0.07 2.165767,-2.47858 -0.390855,-8.33254 0.398869,-9.49466 z"
+         id="path1660-9-5-5-3" />
+    </g>
+  </g>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="common_man_arm_right.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 34.822314 116.45968"
+   height="116.45968mm"
+   width="34.822315mm"
+   inkscape:export-filename="C:\Users\260862\Desktop\bartender.png"
+   inkscape:export-xdpi="241.905"
+   inkscape:export-ydpi="241.905"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath4045"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path4047"
+         d="M 87.197134,57.598109 C 88.69643,71.309833 86.336415,84.020996 68.797741,92.79695 L 14.399527,175.72756 -18.399396,142.39532 27.465763,50.665004 Z"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="705"
+     inkscape:window-width="1366"
+     inkscape:snap-global="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-others="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer5"
+     inkscape:document-units="mm"
+     inkscape:cy="372.55592"
+     inkscape:cx="-246.46007"
+     inkscape:zoom="0.61064659"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0" />
+  <g
+     inkscape:label="reka2"
+     id="layer5"
+     inkscape:groupmode="layer">
+    <g
+       id="g24"
+    transform="translate(-120.51881,-60.591173)"
+    inkscape:transform-center-x="-15.68403"
+       inkscape:transform-center-y="47.64394">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         id="path895-3-2-1"
+         d="m 149.92387,111.50911 2.87171,45.81302 0.7197,5.51308 -1.11031,7.14993 c 5.97028,2.62541 8.78175,0.5955 10.8602,-1.58547 l -1.65014,-8.96423 0.35529,-53.28989 c -10.37111,-31.832439 -6.21265,-27.432026 -19.14466,-48.024849 -10.92537,7.340485 -11.05685,8.054893 0.71511,36.284221 z"
+         style="fill:#f8b68a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#f8b68a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 153.42587,161.89677 c -5.11114,7.72726 -3.6278,8.33055 -3.6278,8.33055 0,0 -3.56353,1.83732 -0.0852,0.0403 3.47827,-1.7971 5.47797,-7.17061 5.47797,-7.17061 z"
+         id="path1660-9-5-5" />
+      <path
+         style="fill:#eedcd1;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 136.14006,81.925802 c 2.23098,9.291444 10.90133,27.720708 10.41374,30.429158 -0.48757,2.70846 2.4004,20.40442 1.83099,31.89798 -0.5694,11.49354 -1.41072,15.90265 -0.582,15.93118 0.8287,0.0286 14.49409,-0.46242 17.72613,-0.1635 0.58884,0.0545 -0.719,-2.61539 -0.84563,-14.02212 -0.12662,-11.40672 0.22429,-36.55552 0.22429,-36.55552 -3.4601,-14.741429 -14.08973,-60.761776 -27.29821,-54.004055 -8.73843,11.190094 -7.63317,12.327705 -4.26032,22.721878 z"
+         id="path1422-5-0-1"
+         sodipodi:nodetypes="czzzsscccc" />
+    </g>
+  </g>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

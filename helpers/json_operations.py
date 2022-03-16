@@ -1,10 +1,11 @@
 from dto.character_dto import CharacterDTO
+from dto.frontground_dto import FrontgroundDTO
 from dto.item_dto import ItemDTO
 from dto.location_dto import LocationDTO
 from dto.move_dto import MoveDTO
-from common_variables import CommonVariables
-from global_methods import GlobalMethods
-from object_type import ObjectType
+from helpers.common_variables import CommonVariables
+from helpers.global_methods import GlobalMethods
+from helpers.object_type import ObjectType
 
 
 class JsonOperation(CommonVariables, GlobalMethods):
@@ -14,11 +15,13 @@ class JsonOperation(CommonVariables, GlobalMethods):
         self.moves = []
         self.world_characters = []
         self.world_locations = []
+        self.frontground_data = {}
 
     def prepare_data_for_animation(self, file_path):
         json_data = self.read_json_file(file_path)
         self.get_init_world_state(json_data["WorldSource"][0]["LSide"]["Locations"])
         self.get_moves(json_data["Moves"])
+        self.get_frontground_size()
 
     def get_init_world_state(self, locations):
         for location in locations:
@@ -55,6 +58,14 @@ class JsonOperation(CommonVariables, GlobalMethods):
 
             self.moves.append(MoveDTO(title, locations, characters, items))
 
+    def get_frontground_size(self):
+        front_data = self.read_json_file(f"{self.SIZE_FILE_PATH}/frontground_size.json")
+
+        for front in front_data:
+            frontground = FrontgroundDTO(front[self.WIDTH_KEY], front[self.HEIGHT_KEY], front[self.CENTER_X_KEY],
+                                         front[self.CENTER_Y_KEY], front[self.IMAGE_X_KEY], front[self.IMAGE_Y_KEY])
+            self.frontground_data[front["name"]] = frontground
+
     def get_characters(self, characters_path):
         characters = []
 
@@ -82,10 +93,10 @@ class JsonOperation(CommonVariables, GlobalMethods):
         return items
 
 
-def main():
-    json_operation = JsonOperation()
-    json_operation.prepare_data_for_animation("./../productions/gameplay.json")
-
-
-if __name__ == "__main__":
-    main()
+# def main():
+#     json_operation = JsonOperation()
+#     json_operation.prepare_data_for_animation("./../productions/gameplay.json")
+#
+#
+# if __name__ == "__main__":
+#     main()

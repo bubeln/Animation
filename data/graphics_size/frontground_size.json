@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Forest",
+    "width": 1005,
+    "height": 182,
+    "center_x": 500,
+    "center_y": 55,
+    "image_x": 0,
+    "image_y": 0
+  },
+  {
+    "name": "Tavern",
+    "width": 1010,
+    "height": 163,
+    "center_x": 500,
+    "center_y": 50,
+    "image_x": 0,
+    "image_y": 0
+  }
+]

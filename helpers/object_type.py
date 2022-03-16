@@ -1,12 +1,12 @@
-from common_variables import CommonVariables
+from helpers.common_variables import CommonVariables
 from global_methods import GlobalMethods
 
 
 class ObjectType(CommonVariables, GlobalMethods):
 
-    CHARACTER_PATH = "./nodes_lists/characters.json"
-    ITEM_PATH = "./nodes_lists/items.json"
-    LOCATION_PATH = "./nodes_lists/locations.json"
+    CHARACTER_PATH = "../helpers/nodes_lists/characters.json"
+    ITEM_PATH = "../helpers/nodes_lists/items.json"
+    LOCATION_PATH = "../helpers/nodes_lists/locations.json"
 
     def __init__(self):
         self.characters = self.read_json_file(self.CHARACTER_PATH)
