@@ -1,17 +1,17 @@
+import packages as read_file
 from helpers.common_variables import CommonVariables
-from global_methods import GlobalMethods
 
 
-class ObjectType(CommonVariables, GlobalMethods):
+class ObjectType(CommonVariables):
 
     CHARACTER_PATH = "../helpers/nodes_lists/characters.json"
     ITEM_PATH = "../helpers/nodes_lists/items.json"
     LOCATION_PATH = "../helpers/nodes_lists/locations.json"
 
     def __init__(self):
-        self.characters = self.read_json_file(self.CHARACTER_PATH)
-        self.items = self.read_json_file(self.ITEM_PATH)
-        self.locations = self.read_json_file(self.LOCATION_PATH)
+        self.characters = read_file.read_json_file(self.CHARACTER_PATH)
+        self.items = read_file.read_json_file(self.ITEM_PATH)
+        self.locations = read_file.read_json_file(self.LOCATION_PATH)
 
     def define_object_type(self, object_name):
         if object_name in self.characters:

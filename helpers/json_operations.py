@@ -1,14 +1,14 @@
+import packages as read_file
 from dto.character_dto import CharacterDTO
 from dto.frontground_dto import FrontgroundDTO
 from dto.item_dto import ItemDTO
 from dto.location_dto import LocationDTO
 from dto.move_dto import MoveDTO
 from helpers.common_variables import CommonVariables
-from helpers.global_methods import GlobalMethods
 from helpers.object_type import ObjectType
 
 
-class JsonOperation(CommonVariables, GlobalMethods):
+class JsonOperation(CommonVariables):
 
     def __init__(self):
         self.characters_dic = {}
@@ -18,7 +18,7 @@ class JsonOperation(CommonVariables, GlobalMethods):
         self.frontground_data = {}
 
     def prepare_data_for_animation(self, file_path):
-        json_data = self.read_json_file(file_path)
+        json_data = read_file.read_json_file(file_path)
         self.get_init_world_state(json_data["WorldSource"][0]["LSide"]["Locations"])
         self.get_moves(json_data["Moves"])
         self.get_frontground_size()
@@ -59,7 +59,7 @@ class JsonOperation(CommonVariables, GlobalMethods):
             self.moves.append(MoveDTO(title, locations, characters, items))
 
     def get_frontground_size(self):
-        front_data = self.read_json_file(f"{self.SIZE_FILE_PATH}/frontground_size.json")
+        front_data = read_file.read_json_file(f"{self.SIZE_FILE_PATH}/frontground_size.json")
 
         for front in front_data:
             frontground = FrontgroundDTO(front[self.WIDTH_KEY], front[self.HEIGHT_KEY], front[self.CENTER_X_KEY],
