@@ -12,19 +12,25 @@ class SceneController(ac.Window, CommonVariables):
         self.character_sprite = None
         self.front_object_sprite = None
         self.item_sprite = None
+        self.second_location = None
+        self.second_location_name = None
         self.text = ""
         self.characters_list = ac.SpriteList()
         self.front_objects_list = ac.SpriteList()
         self.objects_list = ac.SpriteList()
 
     #TODO add items to setup
-    def setup(self, location, location_name, characters, title):
+    def setup(self, location, location_name, characters, title, second_location=None, second_location_name=None):
         self.j = 0
         self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{location_name}_back.png",
                                           width=self.BACKGROUND_WIDTH, height=self.BACKGROUND_HEIGHT)
         self.text = title
 
-        if location is not None:
+        if second_location_name:
+            self.second_location = second_location
+            self.second_location_name = second_location_name
+
+        if location:
             self.load_front_object(location_name, location)
 
         self.load_characters(characters)
@@ -62,13 +68,22 @@ class SceneController(ac.Window, CommonVariables):
         self.front_objects_list.draw()
         ac.finish_render()
 
+    #TODO add moving characters
     def on_update(self, delta_time):
         self.j += 1
 
-        if self.j == 100:
+        if self.j == 50 and "Location change" in self.text:
+            self.front_objects_list = ac.SpriteList()
+            self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{self.second_location_name}_back.png",
+                                              width=self.BACKGROUND_WIDTH, height=self.BACKGROUND_HEIGHT)
+            if self.second_location:
+                self.load_front_object(self.second_location_name, self.second_location)
+
+        elif self.j == 100:
             self.front_objects_list = ac.SpriteList()
             self.characters_list = ac.SpriteList()
             self.background = None
             ac.draw_lrtb_rectangle_filled(0, self.SCENE_WIDTH, self.SCENE_HEIGHT, 0, ac.color.BLACK)
+
         elif self.j == 110:
             ac.exit()

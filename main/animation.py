@@ -17,7 +17,17 @@ class Animation(CommonVariables):
             except KeyError:
                 location = None
 
-            self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title)
+            if "Location change" in move.title:
+                try:
+                    second_location = self.json_operation.frontground_data[move.locations[1].name]
+                except KeyError:
+                    second_location = None
+
+                self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title,
+                                            second_location, move.locations[1].name)
+            else:
+                self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title)
+
             self.scene_controller.run()
             self.scene_controller.switch_to()
 
