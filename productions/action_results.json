@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Teleportation",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "characters[0]",
+        "from": "locations[0]",
+        "to": "locations[1]"
+      }
+    ]
+  },
+  {
+    "title": "Location change",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "characters[0]",
+        "from": "locations[0]",
+        "to": "locations[1]"
+      }
+    ]
+  },
+  {
+    "title": "Fight ending with character's escape",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "characters[1].items",
+        "from": "characters[1]",
+        "to": "locations[0]"
+      },
+      {
+        "op": "move",
+        "node": "characters[1]",
+        "from": "locations[0]",
+        "to": "locations[1]"
+      }
+    ]
+  },
+  {
+    "title": "Picking item up",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "items",
+        "from": "locations[0]",
+        "to": "characters[0]"
+      }
+    ]
+  },
+  {
+    "title": "Dropping item",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "items[0]",
+        "from": "characters[0]",
+        "to": "locations[0]"
+      }
+    ]
+  },
+  {
+    "title": "Item acquisition from another character",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "items[0]",
+        "from": "characters[0]",
+        "to": "characters[0]"
+      }
+    ]
+  },
+  {
+    "title": "Exchanging item for item",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "items[0]",
+        "from": "characters[0]",
+        "to": "characters[1]"
+      },
+      {
+        "op": "move",
+        "node": "items[1]",
+        "from": "characters[1]",
+        "to": "characters[0]"
+      }
+    ]
+  },
+  {
+    "title": "Making a deal",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "items[0]",
+        "from": "characters[1]",
+        "to": "characters[0]"
+      }
+    ]
+  },
+  {
+    "title": "Turning an item into a character's attribute",
+    "instructions": [
+      {
+        "op": "delete",
+        "node": "items[0]",
+        "from": "characters[0]"
+      }
+    ]
+  },
+  {
+    "title": "Character's death",
+    "instructions": [
+      {
+        "op": "move",
+        "node": "characters[0].items",
+        "from": "characters[0]",
+        "to": "locations[0]"
+      }
+    ]
+  },
+  {
+    "title": "Turning a dead",
+    "instructions": [
+      {
+        "op": "delete",
+        "node": "characters[0]",
+        "from": "locations[0]"
+      },
+      {
+        "op": "create",
+        "node": "str",
+        "to": "locations[0]"
+      }
+    ]
+  }
+]

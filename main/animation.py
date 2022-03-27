@@ -12,26 +12,28 @@ class Animation(CommonVariables):
 
     def generate_animation(self):
         for move in self.json_operation.moves:
-            try:
-                location = self.json_operation.frontground_data[move.locations[0].name]
-            except KeyError:
-                location = None
-
-            if "Location change" in move.title:
-                try:
-                    second_location = self.json_operation.frontground_data[move.locations[1].name]
-                except KeyError:
-                    second_location = None
-
-                self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title,
-                                            second_location, move.locations[1].name)
-            else:
-                self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title)
-
+            #TODO usunąć bohaterów biorących udziałw akcji z lokalizacji (tylko dla tego ruchu, nie dla świata)
+            self.setup_scene(move)
             self.scene_controller.run()
             self.scene_controller.switch_to()
 
-        #TODO uaktualnianie swiata po akcji
+    def setup_scene(self, move):
+        try:
+            location = self.json_operation.frontground_data[move.locations[0].name]
+        except KeyError:
+            location = None
+
+        if "Location change" in move.title:
+            try:
+                second_location = self.json_operation.frontground_data[move.locations[1].name]
+            except KeyError:
+                second_location = None
+
+            self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title,
+                                        second_location, move.locations[1].name)
+        else:
+            self.scene_controller.setup(location, move.locations[0].name, move.characters, move.title)
+
 
 def main():
     animation = Animation()

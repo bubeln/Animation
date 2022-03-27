@@ -1,7 +1,7 @@
+import re
 import packages as read_file
 from dto.character_dto import CharacterDTO
 from dto.frontground_dto import FrontgroundDTO
-from dto.item_dto import ItemDTO
 from dto.location_dto import LocationDTO
 from dto.move_dto import MoveDTO
 from helpers.common_variables import CommonVariables
@@ -10,14 +10,17 @@ from helpers.object_type import ObjectType
 
 class JsonOperation(CommonVariables):
 
+    PATH_REGEX = '[\[\].]'
+
     def __init__(self):
-        self.characters_dic = {}
+        self.action_result_json = None
         self.moves = []
-        self.world_characters = []
-        self.world_locations = []
+        self.world_characters = {}
+        self.world_locations = {}
         self.frontground_data = {}
 
     def prepare_data_for_animation(self, file_path):
+        self.action_result_json = read_file.read_json_file("../productions/action_results.json")
         json_data = read_file.read_json_file(file_path)
         self.get_init_world_state(json_data["WorldSource"][0]["LSide"]["Locations"])
         self.get_moves(json_data["Moves"])
@@ -34,7 +37,7 @@ class JsonOperation(CommonVariables):
             if self.ITEMS_KEY in location:
                 items = self.get_items(location[self.ITEMS_KEY])
 
-            self.world_locations.append(LocationDTO(location["Id"], location["Name"], characters, items))
+            self.world_locations[location["Id"]] = LocationDTO(location["Id"], location["Name"], characters, items)
 
     def get_moves(self, moves):
         objects = ObjectType()
@@ -50,13 +53,26 @@ class JsonOperation(CommonVariables):
                 type = objects.define_object_type(node[self.NODE_NAME_KEY])
 
                 if type == self.CHARACTER_TYPE:
-                    characters.append(CharacterDTO(node[self.NODE_ID_KEY], node[self.NODE_NAME_KEY]))
+                    characters.append(self.world_characters[f"{node[self.NODE_ID_KEY]}"])
                 elif type == self.ITEM_TYPE:
-                    items.append(ItemDTO(node[self.NODE_ID_KEY], node[self.NODE_NAME_KEY]))
+                    items.append(node[self.NODE_NAME_KEY])
                 else:
-                    locations.append(LocationDTO(node[self.NODE_ID_KEY], node[self.NODE_NAME_KEY]))
+                    locations.append(self.world_locations[f"{node[self.NODE_ID_KEY]}"])
 
-            self.moves.append(MoveDTO(title, locations, characters, items))
+            new_move = MoveDTO(title, locations, characters, items)
+            self.moves.append(new_move)
+
+            if "Turning a dead" in new_move.title:
+                tmp = move["ModifiedNodesNames"]
+                new_items = []
+
+                for item in tmp:
+                    if item != locations[0].name:
+                        new_items.append(item)
+
+                self.update_world_after_move(new_move, new_items)
+            else:
+                self.update_world_after_move(new_move)
 
     def get_frontground_size(self):
         front_data = read_file.read_json_file(f"{self.SIZE_FILE_PATH}/frontground_size.json")
@@ -72,14 +88,13 @@ class JsonOperation(CommonVariables):
         for character in characters_path:
             items = None
             name = character["Name"]
-            id = character["Id"]
+            character_id = character["Id"]
 
             if self.ITEMS_KEY in character:
                 items = self.get_items(character[self.ITEMS_KEY])
 
-            character_to_add = CharacterDTO(id, name, items)
-            self.world_characters.append(character_to_add)
-            self.characters_dic[id] = name
+            character_to_add = CharacterDTO(character_id, name, items)
+            self.world_characters[character_id] = character_to_add
             characters.append(character_to_add)
 
         return characters
@@ -88,9 +103,58 @@ class JsonOperation(CommonVariables):
         items = []
 
         for item in items_path:
-            items.append(ItemDTO(item["Id"], item["Name"]))
+            items.append(item["Name"])
 
         return items
+
+    def update_world_after_move(self, move, new_item_name=None):
+        for action in self.action_result_json:
+            if action["title"] in move.title:
+                modifications = action["instructions"]
+
+                for modification in modifications:
+                    node = self.read_attribute(move, modification, "node")
+                    source = self.read_attribute(move, modification, "from")
+                    target = self.read_attribute(move, modification, "to")
+                    self.update_world_modification(modification["op"], node, source, target, new_item_name)
+
+                break
+
+    def update_world_modification(self, operator, node, source=None, target=None, new_items=None):
+        node_type = type(node)
+        if operator == "move":
+        #TODO check fight with character's escape, if removing item from characters, remove it also from location.character
+            if node_type == CharacterDTO:
+                source.characters.remove(node)
+                target.characters.append(node)
+            elif node_type == str:
+                source.items.remove(node)
+                target.items.append(node)
+        elif operator == "delete":
+            if node_type == str:
+                source.items.remove(node)
+            elif node_type == CharacterDTO:
+                source.characters.remove(node)
+        elif operator == "create":
+            try:
+                target.items.extend(new_items)
+            except AttributeError:
+                target.items = new_items
+
+    def read_attribute(self, move, modification, node_name):
+        try:
+            path = modification[node_name]
+            path_parts = re.split(self.PATH_REGEX, path)
+            tmp = move
+            for part in path_parts:
+                if len(part) == 1:
+                    tmp = tmp[int(part)]
+                elif len(part) > 1:
+                    tmp = getattr(tmp, part)
+
+            return tmp
+        except (KeyError, AttributeError):
+            return None
 
 
 # def main():

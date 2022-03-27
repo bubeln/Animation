@@ -6,11 +6,12 @@ import pysvg.parser as pyp
 class GeneratePNGFiles:
 
     def generate_png_one_character(self, action, character):
-        bb = self.check_if_action_exist(self, action, character)
+        #TODO check if file exists
+        bb = self.check_if_action_exist(action, character)
         self.character_folder_path = f"./../graphics/characters/{character}"
         template = pyp.parse(f"./../graphics/actions_template/{action}.svg")
         phases_amount = len(template._subElements)
-        character_parts = self.get_character_parts(self, character)
+        character_parts = self.get_character_parts(character)
 
         for part in character_parts:
             part_svg = pyp.parse(f"{self.character_folder_path}/{character}_{part}.svg")
@@ -46,4 +47,4 @@ class GeneratePNGFiles:
         return os.path.isfile(f"./../graphics/characters/{character}/{character}_{action}.png")
 
 
-GeneratePNGFiles.generate_png_one_character(GeneratePNGFiles, "walk3", "bandit")
+GeneratePNGFiles.generate_png_one_character(GeneratePNGFiles, "walk3", "main_hero")

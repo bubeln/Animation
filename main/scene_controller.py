@@ -20,6 +20,7 @@ class SceneController(ac.Window, CommonVariables):
         self.objects_list = ac.SpriteList()
 
     #TODO add items to setup
+    #TODO display location items and characters without characters taking action
     def setup(self, location, location_name, characters, title, second_location=None, second_location_name=None):
         self.j = 0
         self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{location_name}_back.png",
