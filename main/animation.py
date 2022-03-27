@@ -23,7 +23,7 @@ class Animation(CommonVariables):
         except KeyError:
             location = None
 
-        if "Location change" in move.title:
+        if len(move.locations) == 2:
             try:
                 second_location = self.json_operation.frontground_data[move.locations[1].name]
             except KeyError:
