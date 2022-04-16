@@ -6,6 +6,7 @@ import pysvg.parser as pyp
 class GeneratePNGFiles:
 
     def generate_png_one_character(self, action, character):
+        #TODO odbij obiekt poziomo jeżeli chodzenie
         #TODO check if file exists
         bb = self.check_if_action_exist(action, character)
         self.character_folder_path = f"./../graphics/characters/{character}"

@@ -30,11 +30,11 @@
     </clipPath>
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="705"
-     inkscape:window-width="1366"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="507"
+     inkscape:window-height="696"
+     inkscape:window-width="867"
      inkscape:snap-global="false"
      inkscape:object-nodes="true"
      inkscape:snap-others="true"
@@ -42,8 +42,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer4"
      inkscape:document-units="mm"
-     inkscape:cy="352.90462"
-     inkscape:cx="79.424009"
+     inkscape:cy="350.4482"
+     inkscape:cx="81.061617"
      inkscape:zoom="0.61064659"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -60,9 +60,9 @@
      id="layer4"
      inkscape:groupmode="layer">
     <g
-        id="g28"
-        transform="translate(-20.480936,-67.128329)"
-    inkscape:transform-center-x="21.762066"
+       id="g28"
+       transform="rotate(11.92625,345.2199,-27.200601)"
+       inkscape:transform-center-x="21.762066"
        inkscape:transform-center-y="43.524132">
       <path
          sodipodi:nodetypes="ccccczcccc"
@@ -89,7 +89,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

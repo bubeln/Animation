@@ -30,11 +30,11 @@
     </clipPath>
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="705"
-     inkscape:window-width="1366"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="507"
+     inkscape:window-height="696"
+     inkscape:window-width="850"
      inkscape:snap-global="false"
      inkscape:object-nodes="true"
      inkscape:snap-others="true"
@@ -42,8 +42,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="472.67739"
-     inkscape:cx="-83.650797"
+     inkscape:cy="372.90114"
+     inkscape:cx="197.53682"
      inkscape:zoom="0.49611004"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -60,8 +60,8 @@
      inkscape:groupmode="layer"
      inkscape:label="torso">
     <g
-        id="g35"
-        transform="translate(-52.531606,-45.914646)">
+       id="g35"
+       transform="translate(-66.39782,-43.60748)">
       <path
          style="fill:#ffb380;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 111.6645,55.895179 c 3.81242,-4.050854 3.63679,-7.056378 5.47892,-11.902358 l 11.92662,-0.211438 c 1.69817,3.383011 1.99416,8.286887 6.62528,11.570533 19.44342,21.24971 19.32678,13.033116 7.14703,94.474234 l -38.17559,0.37798 C 91.459657,75.973198 82.91594,73.940597 111.6645,55.895179 Z"
