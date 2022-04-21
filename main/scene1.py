@@ -26,10 +26,11 @@ class Scene1(ac.Window):
 
         self.main_character_sprite = ac.AnimatedTimeBasedSprite("./../graphics/characters/main_hero/main_hero_walk_r.png",
                                                                 center_x=50, center_y=190, image_x=0, image_y=0,
-                                                                image_width=300, image_height=600, scale=0.5)
+                                                                image_width=254, image_height=600, scale=0.5)
 
         for i in range(6):
-            texture = ac.load_texture("./../graphics/characters/main_hero/main_hero_walk_r.png", i*302, 0, 302, 600)
+            texture = ac.load_texture("./../graphics/characters/main_hero/main_hero_walk_r_2.png", x=i*254, y=0,
+                                      width=254, height=600)
             self.main_character_sprite.frames.append(ac.AnimationKeyframe(i, 100, texture))
 
         self.character_list.append(self.main_character_sprite)
