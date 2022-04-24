@@ -23,11 +23,28 @@ class GeneratePNGFiles:
         new_action_path = f"{character_folder_path}/{character}_{action}"
         template.save(f"{new_action_path}.svg")
         file = open(f"{new_action_path}.svg", "r")
-        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png")
+        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
+        file.close()
+
+    def generate_png_two_character(self, action, f_character, s_character):
+        #TODO check if file exists
+        # bb = self.check_if_action_two_exist(action, f_character, s_character)
+        f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
+        template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
+        phases_amount = len(template._subElements)
+
+        self.paste_character_parts_to_template(f_character, phases_amount, template, "f_character")
+        self.paste_character_parts_to_template(s_character, phases_amount, template, "s_character")
+
+        new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{action}"
+        template.save(f"{new_action_path}.svg")
+        file = open(f"{new_action_path}.svg", "r")
+        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
         file.close()
 
     def generate_png_two_character_one_item(self, action, f_character, s_character, item):
         #TODO check if file exists
+        #TODO add item
         # bb = self.check_if_action_two_exist(action, f_character, s_character)
         f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
         template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
@@ -39,7 +56,7 @@ class GeneratePNGFiles:
         new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{item}_{action}"
         template.save(f"{new_action_path}.svg")
         file = open(f"{new_action_path}.svg", "r")
-        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png")
+        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
         file.close()
 
     def check_if_action_exist(self, action, character):
@@ -84,4 +101,6 @@ class GeneratePNGFiles:
 
 
 # GeneratePNGFiles().generate_png_one_character("walking", "merchant")
-GeneratePNGFiles().generate_png_two_character_one_item("buy-sell", "common_man", "merchant", "sign")
+# GeneratePNGFiles().generate_png_two_character_one_item("buy-sell", "main_hero", "common_man", "sign")
+# GeneratePNGFiles().generate_png_two_character("fight_running", "main_hero", "common_man")
+GeneratePNGFiles().generate_png_two_character("fight_death", "main_hero", "main_hero")
