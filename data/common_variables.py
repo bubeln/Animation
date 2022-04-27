@@ -34,3 +34,6 @@ class CommonVariables:
     CHARACTER_HEIGHT = 2780
     SCENE_WIDTH = 1000
     SCENE_HEIGHT = 720
+
+    ANIMATED_ACTIONS = ["Making a deal ", "Location change ", "Fight ending with character's death "]
+    SCALE = 0.1

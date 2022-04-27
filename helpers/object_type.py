@@ -1,12 +1,12 @@
 import packages as read_file
-from helpers.common_variables import CommonVariables
+from data.common_variables import CommonVariables
 
 
 class ObjectType(CommonVariables):
 
-    CHARACTER_PATH = "../helpers/nodes_lists/characters.json"
-    ITEM_PATH = "../helpers/nodes_lists/items.json"
-    LOCATION_PATH = "../helpers/nodes_lists/locations.json"
+    CHARACTER_PATH = "../data/nodes_lists/characters.json"
+    ITEM_PATH = "../data/nodes_lists/items.json"
+    LOCATION_PATH = "../data/nodes_lists/locations.json"
 
     def __init__(self):
         self.characters = read_file.read_json_file(self.CHARACTER_PATH)

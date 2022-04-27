@@ -1,4 +1,4 @@
-from helpers.common_variables import CommonVariables
+from data.common_variables import CommonVariables
 from helpers.json_operations import JsonOperation
 from scene_controller import SceneController
 

@@ -1,5 +1,5 @@
 import arcade as ac
-from helpers.common_variables import CommonVariables
+from data.common_variables import CommonVariables
 
 
 class SceneController(ac.Window, CommonVariables):
