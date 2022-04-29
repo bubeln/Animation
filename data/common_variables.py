@@ -37,3 +37,4 @@ class CommonVariables:
 
     ANIMATED_ACTIONS = ["Making a deal ", "Location change ", "Fight ending with character's death "]
     SCALE = 0.1
+    ITEM_SCALE = 0.7
