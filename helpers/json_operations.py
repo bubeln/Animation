@@ -3,7 +3,6 @@ import re
 import packages as read_file
 from dto.character_dto import CharacterDTO
 from dto.frontground_dto import FrontgroundDTO
-from dto.item_dto import ItemDTO
 from dto.location_dto import LocationDTO
 from dto.move_dto import MoveDTO
 from data.common_variables import CommonVariables
@@ -20,7 +19,6 @@ class JsonOperation(CommonVariables):
         self.world_characters = {}
         self.world_locations = {}
         self.frontground_data = {}
-        self.items_size = {}
 
     def prepare_data_for_animation(self, file_path):
         self.action_result_json = read_file.read_json_file("../productions/action_results.json")
@@ -28,7 +26,6 @@ class JsonOperation(CommonVariables):
         self.get_init_world_state(json_data["WorldSource"][0]["LSide"]["Locations"])
         self.get_moves(json_data["Moves"])
         self.get_frontground_size()
-        self.get_items_size()
 
     def get_init_world_state(self, locations):
         for location in locations:
@@ -78,6 +75,11 @@ class JsonOperation(CommonVariables):
             else:
                 self.update_world_after_move(new_move)
 
+        last_location_id = locations[-1:][0].id
+        last_location = [self.world_locations[last_location_id]]
+        new_move = MoveDTO("After last action", last_location, [], [])
+        self.moves.append(new_move)
+
     def get_frontground_size(self):
         front_data = read_file.read_json_file(f"{self.SIZE_FILE_PATH}/frontground_size.json")
 
@@ -85,14 +87,6 @@ class JsonOperation(CommonVariables):
             frontground = FrontgroundDTO(front[self.WIDTH_KEY], front[self.HEIGHT_KEY], front[self.CENTER_X_KEY],
                                          front[self.CENTER_Y_KEY], front[self.IMAGE_X_KEY], front[self.IMAGE_Y_KEY])
             self.frontground_data[front["name"]] = frontground
-
-    def get_items_size(self):
-        items_data = read_file.read_json_file(f"{self.SIZE_FILE_PATH}/items_size.json")
-
-        for data in items_data:
-            name = data["name"].lower()
-            item = ItemDTO(name, data[self.WIDTH_KEY], data[self.HEIGHT_KEY])
-            self.items_size[name] = item
 
     def get_characters(self, characters_path):
         characters = {}

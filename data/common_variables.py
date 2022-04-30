@@ -29,9 +29,6 @@ class CommonVariables:
     # ---- GRAPHICS SIZE ---- #
     BACKGROUND_WIDTH = 1004
     BACKGROUND_HEIGHT = 710
-    #TODO character width and height read as front objects
-    CHARACTER_WIDTH = 1426
-    CHARACTER_HEIGHT = 2780
     SCENE_WIDTH = 1000
     SCENE_HEIGHT = 720
 

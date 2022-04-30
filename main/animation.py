@@ -67,19 +67,11 @@ class Animation(CommonVariables):
     def prepare_items_for_animation(self, move):
         try:
             if move.locations[0].items:
-                items_to_parse = move.items + move.locations[0].items
+                return move.items + move.locations[0].items
             else:
-                items_to_parse = move.items
-
-            items = []
-
-            for item in items_to_parse:
-                item_data = self.json_operation.items_size[item.lower()]
-                items.append(item_data)
+                return move.items
         except KeyError:
-            items = None
-
-        return items
+            return None
 
     def prepare_location_for_animation(self, move):
         try:

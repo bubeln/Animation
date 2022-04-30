@@ -1,4 +1,5 @@
 import arcade as ac
+import PIL.Image as pim
 from data.common_variables import CommonVariables
 
 
@@ -50,33 +51,41 @@ class SceneController(ac.Window, CommonVariables):
         i = 0
 
         for character in characters:
-             #TODO load AnimatedTimeBasedSprite and moves
-            if character.name == "Sheep":
-                width = 1446
-                height = 1060
-            else:
-                width = self.CHARACTER_WIDTH
-                height = self.CHARACTER_HEIGHT
-
-            center_x = (i + 0.6) * self.CHARACTER_WIDTH * self.SCALE + (20 * i)
-            self.character_sprite = ac.Sprite(f"{self.CHARACTER_PATH}/{character.name}/{character.name}.png",
-                                              center_x=center_x, center_y=300, image_x=0, image_y=0,
-                                              image_width=width, image_height=height, scale=self.SCALE)
+            #TODO load AnimatedTimeBasedSprite and moves
+            character_image = pim.open(f"{self.CHARACTER_PATH}/{character.name}/{character.name}.png")
+            width = character_image.width
+            height = character_image.height
+            center_x = 0.5 * width * self.SCALE + 10 + i
+            i += width * self.SCALE + 10
+            self.character_sprite = ac.Sprite(character_image.filename, center_x=center_x, center_y=300, image_x=0,
+                                              image_y=0, image_width=width, image_height=height, scale=self.SCALE)
             self.characters_list.append(self.character_sprite)
-            i += 1
+            j = 0
+
+            try:
+                for item in character.items:
+                    image = pim.open(f"{self.OBJECT_PATH}/{item}.png")
+                    center_x += (0.5 * width * self.SCALE) + (0.5 * image.width * self.ITEM_SCALE) - 10
+                    center_y = 190 + (j * 50)
+                    self.character_sprite = ac.Sprite(image.filename, center_x=center_x, center_y=center_y,
+                                                      image_x=0, image_y=0, image_width=image.width,
+                                                      image_height=image.height, scale=self.ITEM_SCALE)
+                    self.characters_list.append(self.character_sprite)
+                    j += 1
+            except TypeError:
+                print(f"Character {character.name} has no own items")
 
     def load_items(self, items):
         i = 0
 
         for item in items:
-            width = item.width
-            height = item.height
-            center_x = (i + 0.6) * width * self.ITEM_SCALE + (70 * i)
-            self.item_sprite = ac.Sprite(f"{self.OBJECT_PATH}/{item.name}.png", center_x=center_x, center_y=100,
-                                         image_x=0, image_y=0, image_width=width, image_height=height,
+            image = pim.open(f"{self.OBJECT_PATH}/{item}.png")
+            center_x = 0.5 * image.width * self.ITEM_SCALE + 10 + i
+            i += image.width * self.ITEM_SCALE + 10
+            self.item_sprite = ac.Sprite(image.filename, center_x=center_x, center_y=100,
+                                         image_x=0, image_y=0, image_width=image.width, image_height=image.height,
                                          scale=self.ITEM_SCALE)
             self.objects_list.append(self.item_sprite)
-            i += 1
 
     def on_draw(self):
         ac.start_render()
