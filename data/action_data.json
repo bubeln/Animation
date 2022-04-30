@@ -1,0 +1,41 @@
+[
+  {
+    "action": "Making a deal ",
+    "template": "making_deal",
+    "center_x": 300,
+    "center_y": 350,
+    "scale": 0.5,
+    "frames": 16,
+    "x": 0,
+    "type": "two_characters_one_item",
+    "repeat": 1,
+    "duration": 100,
+    "move_x": 0
+  },
+  {
+    "action": "Fight ending with character's death ",
+    "template": "fight_death",
+    "center_x": 600,
+    "center_y": 350,
+    "scale": 0.5,
+    "x": 0,
+    "frames": 23,
+    "type": "two_characters",
+    "repeat": 1,
+    "duration": 100,
+    "move_x":0
+  },
+  {
+    "action": "Location change ",
+    "template": "walking",
+    "center_x": 950,
+    "center_y": 250,
+    "scale": 0.52,
+    "x": 1,
+    "frames": 8,
+    "type": "one_character",
+    "repeat": 3,
+    "duration": 100,
+    "move_x": -2
+  }
+]

@@ -22,6 +22,7 @@ class CommonVariables:
     # ---- PATHS ---- #
     BACKGROUND_PATH = "../graphics/backgrounds"
     CHARACTER_PATH = "../graphics/characters"
+    DATA_PATH = "../data"
     GAMEPLAY_PATH = "../productions/gameplay.json"
     OBJECT_PATH = "../graphics/objects"
     SIZE_FILE_PATH = "../data/graphics_size"
@@ -32,6 +33,7 @@ class CommonVariables:
     SCENE_WIDTH = 1000
     SCENE_HEIGHT = 720
 
-    ANIMATED_ACTIONS = ["Making a deal ", "Location change ", "Fight ending with character's death "]
-    SCALE = 0.1
     ITEM_SCALE = 0.7
+    SCALE = 0.1
+
+    ANIMATED_ACTIONS = ["Making a deal ", "Location change ", "Fight ending with character's death "]

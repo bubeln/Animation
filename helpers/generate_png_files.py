@@ -9,56 +9,69 @@ class GeneratePNGFiles:
     CHARACTERS_PATH = "./../graphics/characters"
     ITEM_PATH = "./../graphics/objects"
 
-    #TODO check if works after refactor
     def generate_png_one_character(self, action, character):
-        #TODO odbij obiekt poziomo jeżeli chodzenie
-        #TODO check if file exists
+        file_exists = self.check_if_action_exist(action, character)
 
-        # bb = self.check_if_action_exist(action, character)
-        character_folder_path = f"{self.CHARACTERS_PATH}/{character}"
-        template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
-        phases_amount = len(template._subElements)
+        if not file_exists:
+            character_folder_path = f"{self.CHARACTERS_PATH}/{character}"
+            template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
+            phases_amount = len(template._subElements)
 
-        self.paste_character_parts_to_template(character, phases_amount, template)
+            self.paste_character_parts_to_template(character, phases_amount, template)
 
-        new_action_path = f"{character_folder_path}/{character}_{action}"
-        template.save(f"{new_action_path}.svg")
-        file = open(f"{new_action_path}.svg", "r")
-        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
-        file.close()
+            new_action_path = f"{character_folder_path}/{character}_{action}"
+            template.save(f"{new_action_path}.svg")
+            file = open(f"{new_action_path}.svg", "r")
+            cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
 
-    def generate_png_two_character(self, action, f_character, s_character):
-        #TODO check if file exists
-        # bb = self.check_if_action_two_exist(action, f_character, s_character)
-        f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
-        template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
-        phases_amount = len(template._subElements)
+            # if flip:
+            #     image = PIL.Image.open(f"{new_action_path}.png")
+            #     out = image.transpose(PIL.Image.FLIP_LEFT_RIGHT)
+            #     out.save(f"{new_action_path}.png")
+            #TODO delete if doesn't used
 
-        self.paste_character_parts_to_template(f_character, phases_amount, template, "f_character")
-        self.paste_character_parts_to_template(s_character, phases_amount, template, "s_character")
+            file.close()
 
-        new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{action}"
-        template.save(f"{new_action_path}.svg")
-        file = open(f"{new_action_path}.svg", "r")
-        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
-        file.close()
+        return f"{self.CHARACTERS_PATH}/{character}/{character}_{action}.png"
 
-    def generate_png_two_character_one_item(self, action, f_character, s_character, item):
-        #TODO check if file exists
-        # bb = self.check_if_action_two_exist(action, f_character, s_character)
-        f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
-        template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
-        phases_amount = len(template._subElements)
+    def generate_png_two_characters(self, action, f_character, s_character):
+        file_exists = self.check_if_action_two_exist(action, f_character, s_character)
 
-        self.paste_character_parts_to_template(f_character, phases_amount, template, "f_character")
-        self.paste_character_parts_to_template(s_character, phases_amount, template, "s_character")
-        self.paste_item_to_template(item, phases_amount, template)
+        if not file_exists:
+            f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
+            template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
+            phases_amount = len(template._subElements)
 
-        new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{item}_{action}"
-        template.save(f"{new_action_path}.svg")
-        file = open(f"{new_action_path}.svg", "r")
-        cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
-        file.close()
+            self.paste_character_parts_to_template(f_character, phases_amount, template, "f_character")
+            self.paste_character_parts_to_template(s_character, phases_amount, template, "s_character")
+
+            new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{action}"
+            template.save(f"{new_action_path}.svg")
+            file = open(f"{new_action_path}.svg", "r")
+            cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
+            file.close()
+
+        return f"{self.CHARACTERS_PATH}/{f_character}/{f_character}_{s_character}_{action}.png"
+
+    def generate_png_two_characters_one_item(self, action, f_character, s_character, item):
+        file_exists = self.check_if_action_two_exist(action, f_character, s_character)
+
+        if not file_exists:
+            f_character_folder_path = f"{self.CHARACTERS_PATH}/{f_character}"
+            template = pyp.parse(f"{self.ACTIONS_TEMPLATE_PATH}/{action}.svg")
+            phases_amount = len(template._subElements)
+
+            self.paste_character_parts_to_template(f_character, phases_amount, template, "f_character")
+            self.paste_character_parts_to_template(s_character, phases_amount, template, "s_character")
+            self.paste_item_to_template(item, phases_amount, template)
+
+            new_action_path = f"{f_character_folder_path}/{f_character}_{s_character}_{item}_{action}"
+            template.save(f"{new_action_path}.svg")
+            file = open(f"{new_action_path}.svg", "r")
+            cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
+            file.close()
+
+        return f"{self.CHARACTERS_PATH}/{f_character}/{f_character}_{s_character}_{action}.png"
 
     def check_if_action_exist(self, action, character):
         return os.path.isfile(f"{self.CHARACTERS_PATH}/{character}/{character}_{action}.png")
@@ -119,6 +132,7 @@ class GeneratePNGFiles:
 
 
 # GeneratePNGFiles().generate_png_one_character("walking", "merchant")
-GeneratePNGFiles().generate_png_two_character_one_item("buy-sell 2", "main_hero", "main_hero", "flakon")
-# GeneratePNGFiles().generate_png_two_character("fight_running", "main_hero", "common_man")
-# GeneratePNGFiles().generate_png_two_character("fight_death", "main_hero", "main_hero")
+# GeneratePNGFiles().generate_png_two_characters_one_item("buy-sell 2", "main_hero", "main_hero", "flakon")
+# GeneratePNGFiles().generate_png_two_characters("fight_running", "main_hero", "common_man")
+# GeneratePNGFiles().generate_png_two_characters("fight_death", "main_hero", "main_hero")
+#TODO delete after testing

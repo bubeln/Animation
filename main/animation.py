@@ -19,6 +19,10 @@ class Animation(CommonVariables):
 
             #TODO display the world after last scene
 
+    def filter_out_characters_and_items_taking_action(self, move):
+        self.filter_out_characters(move)
+        self.filter_out_items(move)
+
     def setup_scene(self, move):
         items = self.prepare_items_for_animation(move)
         location = self.prepare_location_for_animation(move)
@@ -33,10 +37,6 @@ class Animation(CommonVariables):
                                         second_location, move.locations[1])
         else:
             self.scene_controller.setup(location, move.locations[0], move.characters, move.title, items)
-
-    def filter_out_characters_and_items_taking_action(self, move):
-        self.filter_out_characters(move)
-        self.filter_out_items(move)
 
     def filter_out_characters(self, move):
         for character in move.characters:
