@@ -11,7 +11,6 @@ class SceneController(ac.Window, CommonVariables):
         super().__init__(width, height)
         self.set_location(1, 25)
         self.action = None
-        self.action_characters = None
         self.animation_break = 100
         self.animation_list = None
         self.background = None
@@ -19,6 +18,7 @@ class SceneController(ac.Window, CommonVariables):
         self.character_sprite = None
         self.front_objects_list = ac.SpriteList()
         self.front_object_sprite = None
+        self.initial_center_x = 0
         self.item_sprite = None
         self.j = 0
         self.objects_list = ac.SpriteList()
@@ -37,19 +37,17 @@ class SceneController(ac.Window, CommonVariables):
         if second_location:
             self.second_location_front = second_location_front
             self.second_location = second_location
-            self.action_characters = characters
 
         if location_front:
             self.load_front_object(location.name, location_front)
 
         if title in self.ANIMATED_ACTIONS:
-            #TODO send object taking action in move to loading animation
-            self.load_animation(title, characters)
+            self.load_animation(title, characters, items)
             self.load_characters(list(location.characters.values()))
+            self.load_location_items(location.items)
         else:
             self.load_characters(characters + list(location.characters.values()))
-
-        self.load_location_items(items)
+            self.load_location_items(location.items, items)
 
     def on_draw(self):
         ac.start_render()
@@ -68,23 +66,24 @@ class SceneController(ac.Window, CommonVariables):
         ac.finish_render()
 
     def on_update(self, delta_time):
-        #TODO change location and move character at the beginning of the location
         self.j += 1
 
         if self.animation_list:
             self.action.center_x += self.update_center_x
             self.animation_list.update_animation()
 
-        if self.j == (self.animation_break * 2 / 3) and "Location change" in self.text:
+        if self.j == int(self.animation_break * 2 / 3) and "Location change" in self.text:
             self.front_objects_list = ac.SpriteList()
             self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{self.second_location.name}_back.png",
                                               width=self.BACKGROUND_WIDTH, height=self.BACKGROUND_HEIGHT)
             if self.second_location_front:
                 self.load_front_object(self.second_location.name, self.second_location_front)
 
+            self.action.center_x = self.initial_center_x
             self.characters_list = ac.SpriteList()
-            self.load_characters(self.action_characters + list(self.second_location.characters.values()))
+            self.load_characters(list(self.second_location.characters.values()))
             self.characters_list.draw()
+            self.load_location_items(self.second_location.items)
 
         elif self.j == self.animation_break:
             self.draw_loading_view()
@@ -141,7 +140,16 @@ class SceneController(ac.Window, CommonVariables):
             self.characters_list.append(self.character_sprite)
             self.load_character_items(character, center_x, width)
 
-    def load_location_items(self, items):
+    def load_location_items(self, location_items, action_items=None):
+        if action_items and location_items:
+            items = location_items + action_items
+        elif location_items:
+            items = location_items
+        elif action_items:
+            items = action_items
+        else:
+            items = []
+
         i = 0
 
         for item in items:
@@ -181,6 +189,7 @@ class SceneController(ac.Window, CommonVariables):
 
         self.update_center_x = action["move_x"]
         self.animation_break = action_data["repeat"] * action_data["duration"]
+        self.initial_center_x = action["center_x"]
 
         return action_data
 
@@ -218,4 +227,5 @@ class SceneController(ac.Window, CommonVariables):
     def clean_data_and_exit_view(self):
         self.update_center_x = 0
         self.animation_break = 100
+        self.initial_center_x = 0
         ac.exit()

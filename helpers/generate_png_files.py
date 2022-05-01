@@ -24,12 +24,6 @@ class GeneratePNGFiles:
             file = open(f"{new_action_path}.svg", "r")
             cairosvg.svg2png(file_obj=file, write_to=f"{new_action_path}.png", dpi=50)
 
-            # if flip:
-            #     image = PIL.Image.open(f"{new_action_path}.png")
-            #     out = image.transpose(PIL.Image.FLIP_LEFT_RIGHT)
-            #     out.save(f"{new_action_path}.png")
-            #TODO delete if doesn't used
-
             file.close()
 
         return f"{self.CHARACTERS_PATH}/{character}/{character}_{action}.png"
@@ -129,10 +123,3 @@ class GeneratePNGFiles:
         list_file.close()
 
         return parts_list
-
-
-# GeneratePNGFiles().generate_png_one_character("walking", "merchant")
-# GeneratePNGFiles().generate_png_two_characters_one_item("buy-sell 2", "main_hero", "main_hero", "flakon")
-# GeneratePNGFiles().generate_png_two_characters("fight_running", "main_hero", "common_man")
-# GeneratePNGFiles().generate_png_two_characters("fight_death", "main_hero", "main_hero")
-#TODO delete after testing

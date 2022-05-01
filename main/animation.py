@@ -17,14 +17,11 @@ class Animation(CommonVariables):
             self.scene_controller.run()
             self.scene_controller.switch_to()
 
-            #TODO display the world after last scene
-
     def filter_out_characters_and_items_taking_action(self, move):
         self.filter_out_characters(move)
         self.filter_out_items(move)
 
     def setup_scene(self, move):
-        items = self.prepare_items_for_animation(move)
         location = self.prepare_location_for_animation(move)
 
         if len(move.locations) == 2:
@@ -33,10 +30,10 @@ class Animation(CommonVariables):
             except KeyError:
                 second_location = None
 
-            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, items,
+            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, move.items,
                                         second_location, move.locations[1])
         else:
-            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, items)
+            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, move.items)
 
     def filter_out_characters(self, move):
         for character in move.characters:
@@ -48,7 +45,6 @@ class Animation(CommonVariables):
                 except AttributeError:
                     print(f"Character {character.id} has no items")
                     break
-                    #TODO check which loop end after break
             try:
                 del move.locations[0].characters[character.id]
             except KeyError:
@@ -63,15 +59,6 @@ class Animation(CommonVariables):
             except AttributeError:
                 print(f"Location {move.locations[0].id} has no items")
                 break
-
-    def prepare_items_for_animation(self, move):
-        try:
-            if move.locations[0].items:
-                return move.items + move.locations[0].items
-            else:
-                return move.items
-        except KeyError:
-            return None
 
     def prepare_location_for_animation(self, move):
         try:
