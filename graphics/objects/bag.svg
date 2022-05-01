@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="78.462mm"
+   height="110.816mm"
+   viewBox="0 0 78.462 110.816"
+   version="1.1"
+   id="svg12772"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="bag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12774"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.3102506"
+     inkscape:cx="146.15524"
+     inkscape:cy="250.71539"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs12769">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16079">
+      <stop
+         style="stop-color:#e17a35;stop-opacity:1"
+         offset="0"
+         id="stop16075" />
+      <stop
+         style="stop-color:#943c00;stop-opacity:1"
+         offset="1"
+         id="stop16077" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16079"
+       id="radialGradient16081"
+       cx="32.691494"
+       cy="37.588257"
+       fx="32.691494"
+       fy="37.588257"
+       r="22.994521"
+       gradientTransform="matrix(1.0741662,0.32262864,-0.35561239,1.1839829,10.942246,-18.547023)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g22124"
+       transform="matrix(1.7161267,0,0,1.7161267,-15.398023,-13.713022)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\bag.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:url(#radialGradient16081);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 13.422115,9.7096153 5.425962,9.1384617 c 0,0 0.08305,9.215634 -3.7125,14.992789 -5.3901607,8.204298 -7.6504092,31.588906 -5.1403848,34.12644 4.0020638,4.045927 14.5714508,4.492631 22.1322118,4.426443 7.392918,-0.06472 18.315906,1.678497 21.846635,-4.712018 2.545787,-4.607799 -2.351367,-14.597135 -4.140867,-22.703365 -1.616416,-7.322177 -5.921658,-14.650818 -11.708653,-19.419232 -4.321357,-3.560747 -9.28125,-7.567788 -9.28125,-7.567788 l 1.999038,-9.9951922 c 0,0 -3.85908,2.2145912 -5.997115,2.2846152 -2.588123,0.08477 -4.839152,-2.422303 -7.425,-2.2846152 -1.447875,0.077094 -3.998077,1.7134615 -3.998077,1.7134615 z"
+         id="path12866"
+         sodipodi:nodetypes="ccssssssccssc" />
+      <path
+         style="fill:none;stroke:#532900;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 28.843269,17.991346 c 0,0 -3.241189,-0.274301 -4.854808,-0.142788 -1.739784,0.141796 -5.140384,0.999519 -5.140384,0.999519 v 0 l 0.142788,1.142307 c 0,0 3.120114,-0.790097 4.712019,-0.999519 1.795686,-0.23623 5.425963,-0.285577 5.425963,-0.285577 l -0.285578,-1.713461 -9.995192,2.427404 c 0,0 -0.401079,3.640952 -1.142308,5.283173 -0.924245,2.047699 -2.748927,5.814217 -3.284135,7.996154 -0.665517,2.713184 0.571154,5.711538 0.571154,5.711538 l 0.999519,4.283654"
+         id="path16135"
+         sodipodi:nodetypes="cscccscccsscc" />
+    </g>
+  </g>
+</svg>

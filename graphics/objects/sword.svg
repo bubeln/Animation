@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.650mm"
+   height="53.276mm"
+   viewBox="0 0 47.650 53.276"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="sword.svg"
+   inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\sword.png"
+   inkscape:export-xdpi="70"
+   inkscape:export-ydpi="70"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.8529742"
+     inkscape:cx="122.50575"
+     inkscape:cy="114.14082"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2505"
+       transform="translate(-3.8174548,-7.4663155)">
+      <path
+         style="fill:#b3b3b3;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 13.294908,23.931059 32.818379,35.439309 5.354205,1.37171 -0.393719,-5.553167 -32.232872,-36.079755 z"
+         id="path1604"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 5.6452179,10.448056 13.707692,22.560577 5.7115384,28.272115 7.1394229,30.271153 26.273077,16.849038 24.85534,15.027435 17.841382,19.823098 7.745223,8.8702078 Z"
+         id="path857"
+         sodipodi:nodetypes="ccccccccc" />
+      <ellipse
+         style="fill:#000000;stroke-width:1.065"
+         id="path1489"
+         cx="-0.97048092"
+         cy="11.538558"
+         rx="3.1804507"
+         ry="1.161117"
+         transform="rotate(-38.428483)" />
+    </g>
+  </g>
+</svg>

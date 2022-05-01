@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.350mm"
+   height="19.874mm"
+   viewBox="0 0 17.350 19.874"
+   version="1.1"
+   id="svg102102"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="compass.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview102104"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8529742"
+     inkscape:cx="97.950636"
+     inkscape:cy="55.856148"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs102099">
+    <rect
+       x="128.98296"
+       y="23.659596"
+       width="38.160639"
+       height="41.21349"
+       id="rect107376" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text107374"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect107376);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="128.98242"
+         y="101.36626"
+         id="tspan118482"><tspan
+           style="font-size:10.6667px"
+           id="tspan118480">N</tspan></tspan></text>
+    <g
+       id="g118266"
+       transform="matrix(0.77393586,0,0,0.77393586,-4.7518904,-0.12863455)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\compass.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <circle
+         style="fill:#a97d00;fill-opacity:1;fill-rule:evenodd;stroke-width:0.964999;stroke-linejoin:round"
+         id="path102185"
+         cx="17.348797"
+         cy="14.635818"
+         r="11.208895" />
+      <circle
+         style="fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke-width:1.36708;stroke-linejoin:round"
+         id="path102979"
+         cx="17.420193"
+         cy="14.707212"
+         r="9.7096157" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 16.785712,8.1025766 V 5.6288929 l 1.43083,2.4782708 V 5.5784096"
+         id="path113259" />
+      <path
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 16.00322,14.741136 h 2.675617 L 17.416754,6.7647682 Z"
+         id="path103588" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.232771px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+         d="m 18.210751,22.390297 c 0,0 -0.415073,-0.63586 -0.738018,-0.628101 -0.344283,0.0082 -0.781705,0.363368 -0.753721,0.706612 0.04813,0.590336 1.418396,0.399776 1.476036,0.989259 0.03386,0.346254 -0.391272,0.709632 -0.738018,0.738018 -0.340209,0.02785 -0.832233,-0.596695 -0.832233,-0.596695"
+         id="path113429"
+         sodipodi:nodetypes="cssssc" />
+      <path
+         style="fill:#0074ff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 16.00322,14.741136 h 2.675617 l -1.262083,7.976368 z"
+         id="path103588-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+         d="m 8.1567907,13.207933 0.446214,2.570192 0.481911,-1.178005 0.4462139,1.142308 0.4997594,-2.552344"
+         id="path114246" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25179px;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1"
+         d="M 26.489848,13.469265 H 24.91019 v 2.428937 h 1.630615"
+         id="path114396" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 24.934435,14.689363 0.749639,-0.01785"
+         id="path114544" />
+      <path
+         style="fill:#a97d00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 15.742428,4.2479567 c 0,0 -0.846913,-1.0999988 -0.856731,-1.7491587 -0.01047,-0.6922159 0.316167,-1.4594394 0.856731,-1.89194705 0.550297,-0.4402954 1.36669,-0.46623813 2.070432,-0.42836537 0.736483,0.0396347 1.537611,0.20839011 2.10613,0.67824519 0.439206,0.36298383 0.80831,0.92963203 0.821034,1.49927873 0.01628,0.728871 -0.963822,1.9633413 -0.963822,1.9633413 L 19.240745,4.2122596 c 0,0 0.904255,-1.0895423 0.928125,-1.7491587 C 20.184861,2.0212003 19.960395,1.547081 19.633413,1.249399 19.188222,0.84409992 18.52,0.72728649 17.919952,0.67824519 17.319435,0.62916557 16.617467,0.60278545 16.135096,0.96382212 15.691946,1.2955033 15.420687,1.909572 15.421154,2.4631009 c 5.12e-4,0.606734 0.785336,1.6420673 0.785336,1.6420673 z"
+         id="path114739"
+         sodipodi:nodetypes="csssssccssssscc" />
+    </g>
+  </g>
+</svg>

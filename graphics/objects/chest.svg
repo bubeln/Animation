@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.998mm"
+   height="99.281mm"
+   viewBox="0 0 142.998 99.281"
+   version="1.1"
+   id="svg87824"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="chest.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview87826"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.65512531"
+     inkscape:cx="193.09283"
+     inkscape:cy="234.30632"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs87821" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g100164"
+       transform="matrix(1.4306659,0,0,1.4306659,-9.8055639,-53.522041)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\chest.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <rect
+         style="fill:#77502f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.964999;stroke-linejoin:round"
+         id="rect91095"
+         width="99.380768"
+         height="54.830769"
+         x="7.4249997"
+         y="51.974998" />
+      <rect
+         style="fill:#8c5e37;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.964999;stroke-linejoin:round"
+         id="rect91537"
+         width="99.951927"
+         height="13.70769"
+         x="6.8538461"
+         y="38.267307" />
+      <rect
+         style="fill:#71342c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.973074;stroke-linejoin:round"
+         id="rect91759"
+         width="6.2826924"
+         height="69.109619"
+         x="22.846155"
+         y="37.696152" />
+      <rect
+         style="fill:#71342c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.973074;stroke-linejoin:round"
+         id="rect91759-8"
+         width="6.2826924"
+         height="69.109619"
+         x="84.816338"
+         y="37.41058" />
+      <path
+         style="fill:#dda900;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 49.833173,52.260578 c 0,0 -3.095626,-1.4789 -2.998558,-2.855772 0.08638,-1.225272 2.998558,-2.141825 2.998558,-2.141825 h 5.42596 c 0,0 2.409631,0.696393 2.570195,1.71346 0.227193,1.439117 -2.712982,3.426923 -2.712982,3.426923 v 10.280769 l -5.140386,0.142788 z"
+         id="path92996"
+         sodipodi:nodetypes="csccscccc" />
+      <rect
+         style="fill:#9d7800;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.964999;stroke-linejoin:round"
+         id="rect95455"
+         width="12.850962"
+         height="8.2817307"
+         x="46.120674"
+         y="63.969231" />
+      <path
+         style="fill:#9d7800;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 47.405768,64.112017 -0.142787,-4.283651 c 0,0 3.445073,-1.383339 5.260107,-1.409444 1.622043,-0.02333 4.735084,1.123866 4.735084,1.123866 v 5.140386 l -1.142307,0.142787 -0.142788,-4.283654 c 0,0 -2.298746,-0.95347 -3.429772,-0.979392 -1.366014,-0.03131 -3.85244,0.979392 -3.85244,0.979392 l -0.14279,3.855289 z"
+         id="path96678"
+         sodipodi:nodetypes="ccsccccsccc" />
+      <path
+         style="fill:#0b0800;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 51.644462,68.354447 v 1.766919 l 0.858216,0.05048 v -1.766917 c 0,0 0.783554,-0.362494 0.75725,-0.706768 -0.03413,-0.446772 -0.663576,-0.72708 -1.110633,-0.757251 -0.488055,-0.03294 -0.989589,0.273204 -1.060149,0.757253 -0.05324,0.365202 0.555316,0.656284 0.555316,0.656284 z"
+         id="path99571"
+         sodipodi:nodetypes="ccccassc" />
+    </g>
+  </g>
+</svg>

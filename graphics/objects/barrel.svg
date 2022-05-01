@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="93.558mm"
+   height="147.929mm"
+   viewBox="0 0 93.558 147.929"
+   version="1.1"
+   id="svg22151"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="barrel.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22153"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.92648709"
+     inkscape:cx="223.96426"
+     inkscape:cy="301.67717"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs22148">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient24930">
+      <stop
+         style="stop-color:#552200;stop-opacity:1;"
+         offset="0"
+         id="stop24926" />
+      <stop
+         style="stop-color:#843500;stop-opacity:1"
+         offset="1"
+         id="stop24928" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient24930"
+       id="linearGradient24932"
+       x1="6.4370189"
+       y1="67.296887"
+       x2="85.545587"
+       y2="67.296887"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g30430"
+       transform="matrix(1.1826484,0,0,1.1826484,-7.6127302,-5.572664)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\barrel.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:url(#linearGradient24932);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 18.5625,5.1403845 c 0,0 -8.514576,24.4063135 -10.2807692,37.1249995 C 6.0296397,58.483115 5.7287522,75.169018 7.9961538,91.384615 9.8265765,104.47511 19.094388,129.45339 19.094388,129.45339 h 55.726766 c 0,0 7.605489,-26.07053 9.138461,-39.49666 1.814188,-15.889073 2.395208,-32.165001 0,-47.976924 C 82.03405,29.268222 72.536539,5.1403845 72.536539,5.1403845 Z"
+         id="path22288"
+         sodipodi:nodetypes="cssccsscc" />
+      <path
+         style="fill:#2b1100;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 8.5673077,94.525961 2.2846153,8.852889 h 70.823075 l 1.713463,-8.852889 z"
+         id="path28676" />
+      <path
+         style="fill:#2b1100;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 11.1375,30.842307 H 81.674998 L 79.67596,23.13173 H 12.565384 Z"
+         id="path28865" />
+      <rect
+         style="fill:#2b1100;fill-opacity:0.478764;fill-rule:evenodd;stroke:none;stroke-width:0.665001"
+         id="rect29075"
+         width="10.851922"
+         height="124.79711"
+         x="18.5625"
+         y="4.8548074" />
+      <rect
+         style="fill:#2b1100;fill-opacity:0.478764;fill-rule:evenodd;stroke:none;stroke-width:0.665001"
+         id="rect29075-3"
+         width="10.851922"
+         height="124.79711"
+         x="39.98077"
+         y="4.7120209" />
+      <rect
+         style="fill:#2b1100;fill-opacity:0.478764;fill-rule:evenodd;stroke:none;stroke-width:0.665001"
+         id="rect29075-9"
+         width="10.851922"
+         height="124.79711"
+         x="60.256733"
+         y="4.9975986" />
+    </g>
+  </g>
+</svg>

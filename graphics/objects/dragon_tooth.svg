@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.658mm"
+   height="40.563mm"
+   viewBox="0 0 22.658 40.563"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="dragon_tooth.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.92648709"
+     inkscape:cx="230.44034"
+     inkscape:cy="105.23622"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1512">
+      <stop
+         style="stop-color:#ab8129;stop-opacity:1"
+         offset="0"
+         id="stop1508" />
+      <stop
+         style="stop-color:#eeecbc;stop-opacity:1"
+         offset="1"
+         id="stop1510" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1512"
+       id="linearGradient1514"
+       x1="22.094353"
+       y1="73.169098"
+       x2="25.883812"
+       y2="50.037369"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.83652425,0,0,0.83652425,-7.1746533,-5.546669)" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1956"
+       transform="matrix(0.775264,0,0,0.775264,0.03742994,-0.88558996)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\dragon_tooth.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:url(#linearGradient1514);fill-opacity:1;stroke:none;stroke-width:0.22133px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -0.00789265,43.665088 c 0.39417081,5.77336 8.54909125,9.960195 14.33352065,9.794572 4.824062,-0.138124 9.896649,-4.883314 12.661278,-8.839005 3.635646,-5.20196 1.919603,-15.029916 0.716676,-21.261391 C 25.633817,12.637352 10.742248,1.1423076 10.742248,1.1423076 c 0,0 1.982237,15.0236054 -1.4333527,20.7836064 -4.0072997,6.757855 -9.90154893,13.17427 -9.31678795,21.739174 z"
+         id="path857"
+         sodipodi:nodetypes="sssscss" />
+    </g>
+  </g>
+</svg>

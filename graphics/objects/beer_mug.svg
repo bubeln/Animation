@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32.538mm"
+   height="36.132mm"
+   viewBox="0 0 32.538 36.132"
+   version="1.1"
+   id="svg30465"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="beer_mug.svg"
+   inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\beer_mug.png"
+   inkscape:export-xdpi="50"
+   inkscape:export-ydpi="50"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30467"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.3102506"
+     inkscape:cx="42.358309"
+     inkscape:cy="113.3371"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs30462">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient37162">
+      <stop
+         style="stop-color:#8b856c;stop-opacity:0.49019608"
+         offset="0"
+         id="stop37158" />
+      <stop
+         style="stop-color:#f6d2ba;stop-opacity:0.47104248"
+         offset="1"
+         id="stop37160" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient37162"
+       id="linearGradient37164"
+       x1="5.425961"
+       y1="27.84375"
+       x2="29.985577"
+       y2="27.84375"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient37162"
+       id="linearGradient39998"
+       x1="29.886141"
+       y1="25.595057"
+       x2="35.237377"
+       y2="25.696024"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g40103"
+       transform="matrix(0.76681096,0,0,0.76681096,-4.1606864,-3.2847526)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\beer_mug.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <rect
+         style="fill:#db6100;fill-opacity:0.984556;fill-rule:evenodd;stroke-width:0.665001"
+         id="rect32224"
+         width="23.417309"
+         height="26.273077"
+         x="5.9971156"
+         y="21.989422" />
+      <path
+         style="fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 5.8560678,21.909771 H 29.482272 v -2.928033 c 0,0 -1.237066,-0.691456 -1.918367,-0.706767 -0.776803,-0.01746 -1.446612,0.646454 -2.221266,0.706767 -0.882668,0.06872 -1.743802,-0.488013 -2.625134,-0.403867 -0.996122,0.09511 -1.827825,0.95657 -2.827067,1.009667 -1.002627,0.05328 -1.924289,-0.682358 -2.928034,-0.706767 -0.719261,-0.01749 -1.42409,0.222393 -2.120301,0.403867 -0.617922,0.161068 -1.178953,0.593286 -1.8174,0.6058 -1.086194,0.02129 -2.044997,-0.852937 -3.1299675,-0.9087 -0.3757846,-0.01931 -0.7503212,0.09348 -1.1106335,0.201933 -0.4908719,0.147752 -0.9017438,0.635069 -1.4135338,0.6058 C 6.828774,19.758486 5.9570347,18.981738 5.9570347,18.981738 Z"
+         id="path36241"
+         sodipodi:nodetypes="cccsssssssssscc" />
+      <rect
+         style="fill:url(#linearGradient37164);fill-opacity:1;fill-rule:evenodd;stroke-width:0.665001"
+         id="rect30548"
+         width="24.559616"
+         height="47.120193"
+         x="5.425961"
+         y="4.2836537" />
+      <path
+         style="fill:url(#linearGradient39998);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 29.987107,9.7937687 H 41.901176 L 47.858211,22.616538 42.506976,41.19441 29.987107,41.396343 29.88614,37.458642 h 9.591836 L 44.021475,22.919438 39.477976,12.721803 29.987107,12.519869 Z"
+         id="path37218" />
+    </g>
+  </g>
+</svg>

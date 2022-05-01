@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.979mm"
+   height="54.114mm"
+   viewBox="0 0 17.979 54.114"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="alcohol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.8529742"
+     inkscape:cx="49.919745"
+     inkscape:cy="113.60115"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g9913"
+       transform="matrix(2.4689275,0,0,2.4689275,-14.806443,-3.3490766)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\alcohol.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#1a5c0a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 8.4245192,1.85625 v 5.8543268 c 0,0 -2.2846154,0.7078778 -2.2846154,2.2846154 V 22.560577 H 13.136538 V 10.280769 C 12.99375,8.4626618 10.962264,7.504083 10.962264,7.504083 V 1.85625 Z"
+         id="path857"
+         sodipodi:nodetypes="ccscccccc" />
+      <ellipse
+         style="fill:#1a5c0a;fill-opacity:1;stroke-width:1.165"
+         id="path1584"
+         cx="9.6739178"
+         cy="1.9276443"
+         rx="2.0347354"
+         ry="0.57115382" />
+      <ellipse
+         style="fill:#1a5c0a;fill-opacity:1;stroke-width:1.165"
+         id="path1586"
+         cx="9.6382208"
+         cy="22.667669"
+         rx="3.6411057"
+         ry="0.60685092" />
+      <rect
+         style="fill:#a0892c;fill-opacity:1;stroke:none;stroke-width:1.165"
+         id="rect9391"
+         width="5.9971156"
+         height="8.7814903"
+         x="6.6396637"
+         y="11.494472" />
+    </g>
+  </g>
+</svg>

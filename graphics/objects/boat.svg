@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="608.564mm"
+   height="148.143mm"
+   viewBox="0 0 608.564 148.143"
+   version="1.1"
+   id="svg40136"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="boat.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40138"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="1495.9733"
+     inkscape:cy="404.75469"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs40133">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient46522">
+      <stop
+         style="stop-color:#d15300;stop-opacity:1"
+         offset="0"
+         id="stop46518" />
+      <stop
+         style="stop-color:#401900;stop-opacity:1"
+         offset="1"
+         id="stop46520" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient46522"
+       id="linearGradient46524"
+       x1="134.06099"
+       y1="69.644623"
+       x2="138.93628"
+       y2="117.33597"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-0.85673077)" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g47012"
+       transform="matrix(2.9474412,0,0,2.9474412,-65.654254,-195.27932)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\boat.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#ffccaa;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 228.74711,81.674998 -0.28557,-5.425961 -6.2827,-0.856731 -0.28557,2.284616 L 55.401924,75.677884 C 39.210043,75.48347 22.846154,66.253846 22.846154,66.253846 L 22.275,68.252884 c 0,0 15.540343,9.453998 24.274037,9.995191 14.925148,0.924853 182.198073,3.426923 182.198073,3.426923 z"
+         id="path40242"
+         sodipodi:nodetypes="ccccsccsc" />
+      <path
+         style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 22.988942,68.252885 c 0,0 11.900416,27.261472 22.275001,37.410575 4.14414,4.05407 9.609925,6.8133 15.135577,8.56731 1.823667,0.57889 5.711536,0.57115 5.711536,0.57115 L 27.84375,70.251923 Z"
+         id="path40752"
+         sodipodi:nodetypes="cssccc" />
+      <path
+         style="fill:url(#linearGradient46524);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.700962,71.39423 c 0,0 0.873089,6.694264 3.141345,8.852884 0.719932,0.685134 2.855769,0.856731 2.855769,0.856731 0,0 2.313353,7.639728 4.854808,10.566347 1.038796,1.196227 3.998077,2.570192 3.998077,2.570192 0,0 4.441402,9.326466 8.567308,11.994226 0.81521,0.5271 2.85577,0.57116 2.85577,0.57116 0,0 2.154576,3.85663 3.998076,4.85481 1.516034,0.82087 5.140383,0.57115 5.140383,0.57115 l 1.427885,2.57019 145.644227,1.71346 3.14135,-2.85576 c 0,0 1.25182,0.0639 1.71346,-0.28558 1.4259,-1.0796 2.28462,-4.85481 2.28462,-4.85481 0,0 1.28783,-0.8183 1.71346,-1.42788 1.62031,-2.32057 2.85577,-7.996159 2.85577,-7.996159 0,0 1.08267,-0.42208 1.42788,-0.856731 1.92843,-2.428065 2.85577,-8.852884 2.85577,-8.852884 0,0 1.36992,-1.396846 1.71346,-2.284616 0.72471,-1.872753 0.57116,-5.997115 0.57116,-5.997115 0,0 -179.906681,-2.671608 -182.769232,-3.426923 C 39.550264,76.056277 27.700962,71.39423 27.700962,71.39423 Z"
+         id="path45756"
+         sodipodi:nodetypes="cscscscsccccscscscscsc" />
+    </g>
+  </g>
+</svg>

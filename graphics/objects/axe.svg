@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.366mm"
+   height="74.150mm"
+   viewBox="0 0 30.366 74.150"
+   version="1.1"
+   id="svg11448"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="axe.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11450"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.8529742"
+     inkscape:cx="106.04573"
+     inkscape:cy="170.80648"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs11445" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g12666"
+       transform="matrix(2.238374,0,0,2.238374,-12.464945,-12.784559)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\axe.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#803300;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 6.5682693,11.1375 c 0,0 0.5207878,3.990289 0.5711536,5.140385 0.3959183,9.040739 -1.1423076,22.417786 -1.1423076,22.417786 l 4.4264427,0.14279 c 0,0 -0.7755714,-4.552882 -0.8567311,-6.853846 C 9.2862327,24.02947 10.851923,11.1375 10.851923,11.1375 Z"
+         id="path12244"
+         sodipodi:nodetypes="csccscc" />
+      <path
+         style="fill:#1a1a1a;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 5.5687499,7.2822114 h 6.7110581 c 2.044468,0 4.712018,-1.570673 4.712018,-1.570673 0,0 2.088466,2.6881223 2.141827,4.2836537 0.05627,1.6826549 -1.9519,4.6583819 -1.9519,4.6583819 0,0 -2.736808,-2.659343 -4.616369,-2.659343 H 5.5687499 Z"
+         id="path11542"
+         sodipodi:nodetypes="cscscscc" />
+    </g>
+  </g>
+</svg>

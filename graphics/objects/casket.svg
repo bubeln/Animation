@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="305.987mm"
+   height="151.812mm"
+   viewBox="0 0 305.987 151.812"
+   version="1.1"
+   id="svg62438"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="casket.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview62440"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="428.5003"
+     inkscape:cy="344.31133"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs62435">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient87492">
+      <stop
+         style="stop-color:#944813;stop-opacity:1"
+         offset="0"
+         id="stop87488" />
+      <stop
+         style="stop-color:#63300d;stop-opacity:1"
+         offset="1"
+         id="stop87490" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient87492"
+       id="linearGradient87494"
+       x1="36.65168"
+       y1="81.127762"
+       x2="263.22614"
+       y2="48.010689"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g87719"
+       transform="matrix(1.1074967,0,0,1.1074967,-2.0649174,-56.297038)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\casket.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#a35928;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 10.851923,99.380769 v 54.259611 l 38.267308,34.26923 v -66.825 z"
+         id="path62695" />
+      <path
+         style="fill:#8e4d23;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 49.119231,121.08461 146.78654,109.66154 V 163.35 l -97.667309,24.55961 z"
+         id="path63692" />
+      <path
+         style="fill:#703d1c;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 146.78654,163.35 272.44037,108.51923 V 74.249999 L 146.78654,109.66154 Z"
+         id="path67183" />
+      <path
+         style="fill:#753810;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 278.15193,73.107692 255.87692,55.973077 132.50769,78.248075 146.78654,110.80384 Z"
+         id="path68934" />
+      <path
+         style="fill:#8b4213;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 146.78654,110.80384 49.119231,121.08461 56.54423,83.959614 132.50769,78.248075 Z"
+         id="path74203" />
+      <path
+         style="fill:#aa5117;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 49.119231,121.08461 56.54423,83.959612 38.267306,74.821152 1.8644908,95.838329 Z"
+         id="path77319" />
+      <path
+         style="fill:url(#linearGradient87494);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 38.267306,74.821152 56.54423,83.959612 132.50769,78.248075 255.87692,55.973077 242.74038,50.832691 98.23846,62.826923 Z"
+         id="path80786" />
+    </g>
+  </g>
+</svg>
