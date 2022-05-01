@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.991mm"
+   height="43.148mm"
+   viewBox="0 0 9.991 43.148"
+   version="1.1"
+   id="svg85157"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="picklock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview85159"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.65512531"
+     inkscape:cx="-136.61509"
+     inkscape:cy="260.25555"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs85154" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g87495"
+       transform="matrix(0.42116975,0,0,0.42116975,-15.386989,-7.9094854)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\picklock.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 43.011809,58.762614 38.97314,26.857139 c -0.132039,-1.043109 -1.916774,-1.376782 -2.019331,-2.423201 -0.08227,-0.839384 1.266149,-1.379627 1.211598,-2.221267 -0.05922,-0.913613 -1.816447,-1.328069 -1.615466,-2.221267 0.185148,-0.822833 2.221267,-1.2116 2.221267,-1.2116 0,0 -0.663071,0.904117 -0.605801,1.413534 0.102282,0.909799 1.63023,1.305855 1.615469,2.221267 -0.01237,0.767365 -1.495883,1.054366 -1.413534,1.8174 0.112819,1.045363 2.25256,0.98184 2.4232,2.019334 l 5.048335,30.693873 z"
+         id="path85263"
+         sodipodi:nodetypes="csssscsssscc" />
+      <path
+         style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 46.834615,54.259614 42.265385,59.4 c 0,0 0.927428,7.146325 1.713462,10.709134 2.127537,9.643353 7.87848,21.618916 9.138461,31.413466 0.89371,6.94731 -1.570673,17.99134 -1.570673,17.99134 0,0 1.332808,1.72833 2.284614,1.71346 2.742541,-0.0428 6.42548,-5.14038 6.42548,-5.14038 0,0 -0.94583,-12.31237 -2.427401,-18.276926 C 55.749111,89.435494 50.07952,80.797343 48.119711,72.39375 46.652552,66.102624 46.834615,54.259614 46.834615,54.259614 Z"
+         id="path86343"
+         sodipodi:nodetypes="ccsscscssc" />
+    </g>
+  </g>
+</svg>

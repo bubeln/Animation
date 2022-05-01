@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.268mm"
+   height="75.618mm"
+   viewBox="0 0 36.268 75.618"
+   version="1.1"
+   id="svg49184"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="hammer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49186"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.92648709"
+     inkscape:cx="296.28044"
+     inkscape:cy="212.09146"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs49181">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective49273" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g51593"
+       transform="matrix(0.83006535,0,0,0.83006535,-5.9261876,-8.0596148)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\hammer.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <rect
+         style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+         id="rect51389"
+         width="10.566345"
+         height="91.099037"
+         x="23.417307"
+         y="9.7096148" />
+      <rect
+         style="fill:#797979;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+         id="rect49297"
+         width="43.693268"
+         height="16.849037"
+         x="7.1394229"
+         y="11.708654" />
+    </g>
+  </g>
+</svg>

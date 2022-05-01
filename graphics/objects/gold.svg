@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="114.945mm"
+   height="102.808mm"
+   viewBox="0 0 114.945 102.808"
+   version="1.1"
+   id="svg25290"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="gold.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview25292"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.92648709"
+     inkscape:cx="186.18716"
+     inkscape:cy="187.26651"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs25287">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient33044">
+      <stop
+         style="stop-color:#fff928;stop-opacity:1;"
+         offset="0"
+         id="stop33040" />
+      <stop
+         style="stop-color:#fff928;stop-opacity:0;"
+         offset="1"
+         id="stop33042" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient33044"
+       id="linearGradient33046"
+       x1="56.544231"
+       y1="46.977402"
+       x2="57.115368"
+       y2="23.845673"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g33155"
+       transform="translate(-2.7129815,-9.7096154)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\gold.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <rect
+         style="opacity:1;fill:#431b00;fill-opacity:1;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect31966"
+         width="114.51634"
+         height="37.125004"
+         x="2.8557694"
+         y="9.7096148" />
+      <path
+         style="fill:#f5d205;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2.8557693,46.834618 c 0,0 0.7968422,-4.791274 2.5964319,-6.044076 2.1573047,-1.501828 5.6606628,1.011894 7.8754018,-0.403868 1.217694,-0.778405 0.766498,-3.116251 2.019334,-3.836733 2.74495,-1.578569 6.748134,-1.178548 9.490868,0.403868 0.760182,0.438586 0.625446,1.835065 1.413534,2.221267 2.610294,1.279173 6.347413,0.922677 8.683135,-0.807734 1.2856,-0.952432 0.529541,-3.493157 1.817399,-4.442534 1.849298,-1.363257 5.848911,0.734951 7.875404,1.817401 2.099118,1.121242 0.344271,2.678487 2.423201,3.836732 2.237532,1.246607 5.416549,0.807292 7.673467,-0.403865 2.289416,-1.228597 2.359575,-2.680154 4.846399,-3.432869 2.669545,-0.80802 5.839414,-2.101333 7.67347,10e-7 1.493133,1.710728 2.061756,4.23798 3.836734,5.654134 3.525696,2.812954 7.365395,3.327375 11.106337,0.807734 1.576111,-1.06156 0.684281,-4.13281 2.221267,-5.250267 2.513822,-1.82766 6.593059,-2.354306 9.288936,-0.807734 1.227489,0.704186 0.628925,3.06853 1.817399,3.836734 2.9401,1.900418 7.495723,-1.594416 10.500533,0.201933 1.06059,0.634048 0.71029,2.682141 1.8174,3.230935 2.19194,1.086541 5.0991,-2.138433 7.2696,-1.009668 1.47173,0.765369 2.27009,4.428609 2.27009,4.428609 L 114.69816,51.493012 6.0580013,52.09881 Z"
+         id="path26706"
+         sodipodi:nodetypes="csssssssssssssssssssscccc" />
+      <rect
+         style="opacity:1;fill:#703610;fill-opacity:1;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect25373"
+         width="114.51634"
+         height="65.682693"
+         x="2.8557694"
+         y="46.834618" />
+      <rect
+         style="opacity:1;fill:#552200;fill-opacity:0.571429;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect30828"
+         width="114.51634"
+         height="11.994231"
+         x="3.1413462"
+         y="59.685577" />
+      <rect
+         style="fill:#552200;fill-opacity:0.571429;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect30828-3"
+         width="114.51634"
+         height="11.994231"
+         x="2.7129815"
+         y="85.673073" />
+      <rect
+         style="opacity:1;fill:#552200;fill-opacity:1;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect30680"
+         width="6.8538446"
+         height="65.682693"
+         x="11.994231"
+         y="46.834618" />
+      <rect
+         style="fill:#552200;fill-opacity:1;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect30680-0"
+         width="6.8538446"
+         height="65.682693"
+         x="97.952888"
+         y="46.834614" />
+      <rect
+         style="opacity:1;fill:url(#linearGradient33046);fill-opacity:1;stroke:none;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.830116"
+         id="rect32444"
+         width="114.51633"
+         height="23.131733"
+         x="2.8557694"
+         y="23.702885" />
+    </g>
+  </g>
+</svg>

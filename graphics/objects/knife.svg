@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24.986mm"
+   height="27.150mm"
+   viewBox="0 0 24.986 27.150"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="knife.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4045">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 87.197134,57.598109 C 88.69643,71.309833 86.336415,84.020996 68.797741,92.79695 L 14.399527,175.72756 -18.399396,142.39532 27.465763,50.665004 Z"
+         id="path4047"
+         sodipodi:nodetypes="cccccc" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:guide-bbox="true"
+     showguides="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.99222008"
+     inkscape:cx="112.37426"
+     inkscape:cy="69.037103"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer7"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-others="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="left_arm"
+     style="display:inline"
+     transform="translate(-10.088284,0.40110117)">
+    <g
+       id="g64598"
+       transform="matrix(-1,0,0,1,45.736253,-116.73602)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\knife.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#b3b3b3;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 18.950015,127.69484 c 0.684775,0.19473 0.669886,1.30768 0.155027,1.45147 l 4.475643,5.84367 c 7.081493,8.75262 9.262765,7.38257 12.067284,8.49522 -5.573499,-6.24389 -7.838145,-8.55961 -8.975969,-11.12573 l -4.666827,-6.77661 z"
+         id="path2213"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="fill:#241f1c;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 10.661908,117.71429 c 2.77701,2.81383 6.45265,6.29016 8.411943,9.3673 0.513234,-0.15821 1.051049,-0.50581 1.561667,-0.78212 0.01829,-0.01 0.760003,-0.43187 0.748413,-0.45029 -0.783676,-1.24557 -3.327529,-4.97003 -6.926808,-9.51426 z"
+         id="path2196"
+         sodipodi:nodetypes="ccsscc" />
+      <path
+         style="fill:#241f1c;stroke:none;stroke-width:0.29117px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 17.654113,127.55251 4.864775,-2.42187 0.25993,0.32938 -4.576929,2.64803 z"
+         id="path2194"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>

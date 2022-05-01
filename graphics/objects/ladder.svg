@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="112.470mm"
+   height="455.385mm"
+   viewBox="0 0 112.470 455.385"
+   version="1.1"
+   id="svg64723"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ladder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview64725"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32756265"
+     inkscape:cx="184.69749"
+     inkscape:cy="1015.073"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs64720" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g66703"
+       transform="matrix(1.8068628,0.26303887,-0.19417663,2.4476434,22.262749,-15.180019)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\ladder.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:5.765;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 10.280769,7.9961538 V 183.34038"
+         id="path64817" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:5.765;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 47.976924,8.8528871 V 184.19711"
+         id="path64817-7" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.536657,17.134617 H 10.052666"
+         id="path64817-4" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.656419,34.554808 H 10.172428"
+         id="path64817-4-2" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.228053,56.401442 H 9.7440621"
+         id="path64817-4-2-8" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.656419,78.390866 H 10.172428"
+         id="path64817-4-2-6" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.51363,101.66538 H 10.02964"
+         id="path64817-4-2-1" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.370842,123.08365 H 9.8868508"
+         id="path64817-4-2-3" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 48.228053,146.35817 H 9.7440625"
+         id="path64817-4-2-69" />
+      <path
+         style="fill:none;stroke:#be7d0e;stroke-width:2.70081;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 47.942476,169.06154 H 9.4584849"
+         id="path64817-4-2-2" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.425mm"
+   height="18.106mm"
+   viewBox="0 0 6.425 18.106"
+   version="1.1"
+   id="svg92485"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="poison.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview92487"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="3.7059484"
+     inkscape:cx="34.134313"
+     inkscape:cy="40.340551"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs92482" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g102481"
+       transform="matrix(0.7826087,0,0,0.7826087,-4.637521,-6.2022343)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\poison.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#1e778a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 6.3540864,19.704808 v 9.852404 c 0,0 2.2399064,0.916678 3.426923,0.999519 1.3194586,0.09208 3.9266826,-0.571156 3.9266826,-0.571156 V 19.562019 c 0,0 -1.515432,0.30741 -2.284615,0.356971 C 10.520309,19.97716 9.6138835,19.88687 8.7100962,19.8476 7.9240601,19.81345 6.3540864,19.704808 6.3540864,19.704808 Z"
+         id="path95120"
+         sodipodi:nodetypes="ccsccssc" />
+      <path
+         style="fill:#d2d2d2;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 8.9242789,11.494471 c 0,0 -0.9206414,-1.17778 -0.8567309,-1.8562498 0.057597,-0.6114497 0.5248255,-1.2182523 1.0709135,-1.4992789 0.5713329,-0.2940182 1.3474635,-0.276149 1.9276445,0 0.44299,0.2108502 1.020343,1.0240705 1.142307,1.4992787 0.198434,0.773153 -0.642547,1.999038 -0.642547,1.999038 z"
+         id="path93283"
+         sodipodi:nodetypes="csssscc" />
+      <path
+         style="fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 9.0670672,11.351683 0.1427885,3.998077 0.9281253,0.928125 1.070913,-1.070914 0.07139,-3.7125 z"
+         id="path93641" />
+      <path
+         style="fill:#404040;fill-opacity:0.675676;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 6.6396634,10.709134 c 0,0 1.9967608,0.870961 3.5697116,0.856731 1.432775,-0.01296 3.569712,-0.856731 3.569712,-0.856731 l -0.142789,1.285097 -1.499279,0.85673 v 2.284616 l 1.999039,1.142308 v 13.993268 c 0,0 -2.833851,0.859179 -4.2836544,0.785338 C 8.4910141,30.987153 5.9257212,29.914183 5.9257212,29.914183 V 16.349279 l 2.3560095,-1.213702 10e-8,-2.213221 -1.6420674,-0.571154 z"
+         id="path92579"
+         sodipodi:nodetypes="csccccccscccccc" />
+      <rect
+         style="fill:#d0d17c;fill-opacity:1;stroke-width:0.365001;stroke-linecap:round;stroke-linejoin:round"
+         id="rect93745"
+         width="6.7824521"
+         height="7.4963942"
+         x="6.7110577"
+         y="20.347355" />
+    </g>
+  </g>
+</svg>
