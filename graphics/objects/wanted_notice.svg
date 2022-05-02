@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="56.419mm"
+   height="85.099mm"
+   viewBox="0 0 56.419 85.099"
+   version="1.1"
+   id="svg23757"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="wanted_notice.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23759"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32756265"
+     inkscape:cx="660.94226"
+     inkscape:cy="764.7392"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs23754">
+    <rect
+       x="-47.491217"
+       y="310.85161"
+       width="686.46396"
+       height="170.53664"
+       id="rect36731" />
+    <rect
+       x="-41.015142"
+       y="310.85161"
+       width="682.14658"
+       height="170.53664"
+       id="rect29071" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text29069"
+       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect29071);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-41.015625"
+         y="656.55609"
+         id="tspan45828"><tspan
+           dx="0 147.44701 101.44557 110.63312 89.067932 89.259338"
+           style="font-weight:bold;font-size:130.667px;-inkscape-font-specification:'sans-serif Bold'"
+           id="tspan45826">WANTED</tspan></tspan></text>
+    <g
+       id="g45685"
+       transform="matrix(0.29711916,0,0,0.29711916,-55.842718,-19.856388)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\wanted_notice.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <rect
+         style="fill:#cfb583;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         id="rect23852"
+         width="189.62308"
+         height="286.14807"
+         x="188.0795"
+         y="66.962006" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.29474487,0,0,0.29474487,216.14898,-7.6983414)"
+         id="text36729"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:126.667px;line-height:1.25;font-family:Sylfaen;-inkscape-font-specification:'Sylfaen Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect36731);fill:#47342b;fill-opacity:1;stroke:none"><tspan
+           x="-47.492188"
+           y="418.37581"
+           id="tspan45830">WANTED</tspan></text>
+      <rect
+         style="fill:#ddcec7;fill-opacity:1;stroke:#000000;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect43216"
+         width="156.49614"
+         height="117.08654"
+         x="206.18654"
+         y="129.65192" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 218.75192,245.59615 c 0,0 -2.04456,-16.61607 2.85577,-22.275 4.65654,-5.3774 14.06565,-2.81271 20.56154,-5.71154 7.42724,-3.31445 15.11982,-7.09194 20.56154,-13.13654 1.42416,-1.58194 2.85577,-5.71154 2.85577,-5.71154 0,0 -4.03022,-3.65145 -5.71154,-6.28269 -3.25788,-5.09854 -5.04106,-11.12137 -5.71154,-17.13462 -0.27426,-2.45976 1.69795,-5.53593 1.42789,-7.99615 -0.38306,-3.48956 -2.50275,-7.63376 -2.28462,-11.13749 0.35173,-5.64961 2.29562,-9.13952 5.99712,-13.42212 4.5111,-5.21932 10.23606,-8.31972 17.13461,-8.28174 7.15643,0.0394 13.12576,3.56479 18.27692,7.71058 3.08625,2.48389 4.3733,5.89039 5.42597,9.70962 1.31917,4.78615 0.28557,14.85 0.28557,14.85 0,0 1.49785,0.93504 1.71346,1.71346 2.3049,8.32142 -6.71066,17.49675 -5.14038,25.9875 0.42262,2.28519 2.85576,4.8548 2.85576,4.8548 0,0 7.43674,7.32443 11.99423,9.70962 8.43401,4.41399 20.67668,1.27264 27.41539,7.99615 7.16461,7.14846 8.56731,29.12885 8.56731,29.12885 z"
+         id="path43771"
+         sodipodi:nodetypes="cssscsssssssscsscsscc" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="222.006mm"
+   height="185.246mm"
+   viewBox="0 0 222.006 185.246"
+   version="1.1"
+   id="svg59497"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="well.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview59499"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.65512531"
+     inkscape:cx="406.79241"
+     inkscape:cy="290.78407"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs59494">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips4_1"
+       id="pattern66189"
+       patternTransform="matrix(10,0,0,10,-8.13894,-1.7837919)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="1.25"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips4_1"
+       inkscape:stockid="Stripes 4:1"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect7969" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Checkerboard"
+       id="pattern61627"
+       patternTransform="matrix(10,0,0,10,-64.254807,-8.708874)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="2"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Checkerboard"
+       inkscape:stockid="Checkerboard"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="0"
+         width="1"
+         height="1"
+         id="rect7975" />
+      <rect
+         style="fill:black;stroke:none"
+         x="1"
+         y="1"
+         width="1"
+         height="1"
+         id="rect7977" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g68019"
+       transform="matrix(1.8315207,0,0,1.8315207,-21.816091,-115.50646)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\well.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 11.994231,99.095191 v 57.115379 c 0,0 36.169774,7.84232 54.54519,7.99616 18.524958,0.15509 55.116349,-7.13942 55.116349,-7.13942 V 97.667306 c 0,0 -36.626671,6.054074 -55.116349,6.282694 -18.25221,0.22569 -54.54519,-4.854809 -54.54519,-4.854809 z"
+         id="path59591"
+         sodipodi:nodetypes="ccsccsc" />
+      <path
+         style="opacity:0.0433436;fill:url(#pattern61627);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 11.994231,99.095186 v 57.115384 c 0,0 36.169772,7.84232 54.545192,7.99616 18.524957,0.15509 55.116347,-7.13942 55.116347,-7.13942 V 97.667306 c 0,0 -36.62667,6.054074 -55.116347,6.282694 -18.25221,0.22569 -54.545192,-4.854814 -54.545192,-4.854814 z"
+         id="path59591-8-2"
+         sodipodi:nodetypes="ccsccsc" />
+      <path
+         style="fill:#050505;fill-opacity:1;stroke:#3a3a3a;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 12.493991,99.095191 c 0.06248,5.840289 34.373026,5.048829 51.922755,4.900499 19.195247,-0.16224 55.650304,-0.62783 56.453684,-6.328386 0.7702,-5.465053 -37.359581,-5.280714 -56.25175,-4.979883 -18.330939,0.291894 -52.157144,3.374198 -52.124689,6.40777 z"
+         id="path61742"
+         sodipodi:nodetypes="sssss" />
+      <path
+         style="fill:#6a3e1c;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 106.66298,66.111056 3.7125,30.985097 c 0,0 6.80733,1.785604 10.28077,1.71346 3.01448,-0.06261 8.85288,-1.856248 8.85288,-1.856248 l 3.42693,-31.699038 c 0,0 -8.06848,2.525654 -12.80915,2.626364 -4.38638,0.09318 -13.46393,-1.769635 -13.46393,-1.769635 z"
+         id="path63905"
+         sodipodi:nodetypes="ccsccsc" />
+      <path
+         style="opacity:0.0216718;fill:url(#pattern66189);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 106.66298,66.111056 3.7125,30.985097 c 0,0 6.80733,1.785605 10.28077,1.713465 3.01448,-0.0626 8.85288,-1.856253 8.85288,-1.856253 l 3.42693,-31.699038 c 0,0 -7.96751,2.32372 -12.70818,2.42443 -4.38638,0.09318 -13.5649,-1.567701 -13.5649,-1.567701 z"
+         id="path63905-7"
+         sodipodi:nodetypes="ccsccsc" />
+      <ellipse
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#6a3e1c;stroke-width:0.649;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path67293"
+         cx="65.539902"
+         cy="-119.72813"
+         rx="2.149524"
+         ry="13.072841"
+         transform="rotate(90)" />
+    </g>
+  </g>
+</svg>

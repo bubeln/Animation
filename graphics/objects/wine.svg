@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.946mm"
+   height="39.231mm"
+   viewBox="0 0 16.946 39.231"
+   version="1.1"
+   id="svg45835"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="wine.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview45837"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="257.96366"
+     inkscape:cy="134.91823"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs45832" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g50263"
+       transform="matrix(0.55281548,0,0,0.55281548,-8.3269469,-6.1569824)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\wine.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#db0000;fill-opacity:0.976834;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 15.920913,28.129328 c 0,0 -0.526614,2.623384 -0.356971,3.926681 0.88655,6.811002 7.185222,17.84411 14.921394,17.777163 7.749044,-0.06706 14.097914,-10.340771 14.635816,-18.062739 0.104826,-1.504859 -0.499758,-4.497837 -0.499758,-4.497837 z"
+         id="path47389"
+         sodipodi:nodetypes="cssscc" />
+      <path
+         style="fill:#c5c5c5;fill-opacity:0.559846;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 20.847115,11.1375 h 18.562501 c 0,0 7.952466,15.409959 5.997114,23.13173 C 43.554931,41.582064 38.385846,50.58859 30.842307,50.547115 23.632266,50.507474 17.252663,41.814036 15.421154,34.840383 13.362253,27.00091 20.847115,11.1375 20.847115,11.1375 Z"
+         id="path45929"
+         sodipodi:nodetypes="ccsssc" />
+      <path
+         style="fill:none;stroke:#c5c5c5;stroke-width:1.965;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.560784"
+         d="M 31.127884,50.904086 V 79.747354"
+         id="path49993" />
+      <ellipse
+         style="fill:#c5c5c5;fill-opacity:0.560784;stroke:none;stroke-width:1.965;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.560784"
+         id="path50133"
+         cx="31.41346"
+         cy="80.247108"
+         rx="9.7096148"
+         ry="1.8562499" />
+    </g>
+  </g>
+</svg>

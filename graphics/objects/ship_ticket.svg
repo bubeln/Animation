@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19.723mm"
+   height="9.358mm"
+   viewBox="0 0 19.723 9.358"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ship_ticket.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="2.6205012"
+     inkscape:cx="77.656899"
+     inkscape:cy="14.691846"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="41.976702"
+       y="26.330841"
+       width="114.86352"
+       height="55.332926"
+       id="rect8765" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11602"
+       transform="matrix(0.72674319,0,0,0.72674319,-3.1067917,-3.0093458)"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\ship_ticket.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
+      <path
+         style="fill:#cfcfcf;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 4.2836539,4.1408654 H 31.313236 l 0.05048,1.9990384 c 0,0 -1.101346,0.546311 -0.982194,1.1754679 0.09902,0.5228476 0.948293,0.9411173 0.948293,0.9411173 l -0.0087,2.452645 c 0,0 -1.013883,0.417968 -1.032681,0.932456 -0.01981,0.542318 1.108406,0.923794 1.108406,0.923794 v 1.570674 c 0,0 -1.128922,0.134695 -1.150226,0.646878 -0.02211,0.531682 1.124985,0.587735 1.124985,0.587735 l 0.04182,1.621156 -27.1384677,0.02524 0.041822,-2.116586 c 0,0 1.6382363,0.03751 1.5612684,-0.697362 C 5.7958845,13.418314 4.2915724,13.32981 4.2915724,13.32981 l 0.025242,-2.335099 c 0,0 0.9993606,-0.03534 1.056435,-0.748588 C 5.4450747,9.3485359 4.2915724,9.1384614 4.2915724,9.1384614 L 4.3168141,6.593511 c 0,0 1.2793886,0.088877 1.268516,-0.5841463 C 5.5712089,5.1352421 4.2836539,5.2831729 4.2836539,5.2831729 Z"
+         id="path857"
+         sodipodi:nodetypes="cccsccsccsccccsccsccscc" />
+      <rect
+         style="fill:#cfcfcf;fill-opacity:1;stroke:#414141;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="rect3665"
+         width="20.900105"
+         height="9.3899021"
+         x="7.774435"
+         y="5.9570346" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,3.1299674,1.8174004)"
+         id="text8763"
+         style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect8765);fill:#000000;fill-opacity:1;stroke:none"><tspan
+           x="41.976562"
+           y="36.061632"
+           id="tspan11881">SHIP</tspan></text>
+    </g>
+  </g>
+</svg>

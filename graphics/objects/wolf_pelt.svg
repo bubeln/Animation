@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="168.879mm"
+   height="89.393mm"
+   viewBox="0 0 168.879 89.393"
+   version="1.1"
+   id="svg17430"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="wolf_pelt.svg"
+   inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\sheep_pelt.png"
+   inkscape:export-xdpi="80"
+   inkscape:export-ydpi="80"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17432"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.9264871"
+     inkscape:cx="305.99455"
+     inkscape:cy="138.69594"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs17427" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#9d9d9d;fill-opacity:1;stroke:none;stroke-width:0.676108px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0.80363861,36.329213 c 0,0 -2.43032491,11.71806 1.16173789,15.410499 2.7185838,2.794552 3.5569868,-6.016908 11.6344875,1.200267 8.077501,7.217164 -7.4569478,24.8513 -7.4569478,24.8513 L 26.596856,87.825557 c 0,0 1.204698,-8.055255 19.58299,-10.885664 18.378291,-2.830414 11.960749,12.170713 28.698569,8.665696 16.737804,-3.505012 15.011616,-13.23388 30.689895,-10.308254 15.42293,2.877977 34.5773,22.539578 43.30005,9.895328 8.72277,-12.64426 -11.98212,-17.967748 -2.76176,-20.343984 9.22038,-2.37625 20.86803,-1.423981 22.67937,-17.075271 1.30009,-11.233563 -11.33946,-4.821635 -13.96326,-16.578451 -2.19102,-9.817619 20.77632,-17.728931 8.04759,-18.803701 -25.00567,-2.111391 -32.41151,4.775615 -43.18909,3.914484 C 95.104534,14.342075 99.124865,6.6946094 86.170818,6.6582734 67.815531,6.6067904 64.058054,14.744343 48.718496,14.26768 38.13868,13.938925 26.956534,0 26.956534,0 L 9.864869,14.396764 c 0,0 13.507922,6.366353 11.171123,14.3326 -3.526103,12.020654 -20.23235339,7.599849 -20.23235339,7.599849 z"
+       id="path19104"
+       sodipodi:nodetypes="cssccsssssssssssccsc"
+       inkscape:export-filename="E:\V-rok\magisterka\implementation\Animation\graphics\objects\wolf_pelt.png"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50" />
+  </g>
+</svg>
