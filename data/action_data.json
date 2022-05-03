@@ -34,8 +34,8 @@
     "x": 1,
     "frames": 8,
     "type": "one_character",
-    "repeat": 9,
-    "duration": 100,
+    "repeat": 7.5,
+    "duration": 130,
     "move_x": -1.5
   }
 ]
