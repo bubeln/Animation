@@ -23,7 +23,7 @@
     "type": "two_characters",
     "repeat": 1,
     "duration": 100,
-    "move_x":0
+    "move_x": 0
   },
   {
     "action": "Location change ",

@@ -2,7 +2,7 @@ import arcade as ac
 import PIL.Image as pim
 import packages as read_file
 from data.common_variables import CommonVariables
-from helpers.generate_png_files import GeneratePNGFiles
+from helpers.png_file_generator import PNGFileGenerator
 
 
 class SceneController(ac.Window, CommonVariables):
@@ -11,35 +11,35 @@ class SceneController(ac.Window, CommonVariables):
         super().__init__(width, height)
         self.set_location(1, 25)
         self.action = None
+        self.action_list = None
         self.animation_break = 100
-        self.animation_list = None
         self.background = None
         self.characters_list = ac.SpriteList()
         self.character_sprite = None
+        self.frame = 0
         self.front_objects_list = ac.SpriteList()
         self.front_object_sprite = None
         self.initial_center_x = 0
         self.item_sprite = None
-        self.j = 0
-        self.objects_list = ac.SpriteList()
-        self.second_location_front = None
+        self.items_list = ac.SpriteList()
+        self.second_location_front_objects = None
         self.second_location = None
-        self.text = ""
+        self.title = ""
         self.update_center_x = 0
 
-    def setup(self, location_front, location, characters, title, items=None, second_location_front=None,
+    def setup(self, location_front_object, location, characters, title, items=None, second_location_front_object=None,
               second_location=None):
-        self.j = 0
+        self.frame = 0
         self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{location.name}_back.png",
                                           width=self.BACKGROUND_WIDTH, height=self.BACKGROUND_HEIGHT)
-        self.text = title
+        self.title = title
 
         if second_location:
-            self.second_location_front = second_location_front
+            self.second_location_front_objects = second_location_front_object
             self.second_location = second_location
 
-        if location_front:
-            self.load_front_object(location.name, location_front)
+        if location_front_object:
+            self.load_front_object(location.name, location_front_object)
 
         if title in self.ANIMATED_ACTIONS:
             self.load_animation(title, characters, items)
@@ -51,33 +51,36 @@ class SceneController(ac.Window, CommonVariables):
 
     def on_draw(self):
         ac.start_render()
+
         if self.background is None:
             ac.draw_lrtb_rectangle_filled(0, self.SCENE_WIDTH, self.SCENE_HEIGHT, 0, ac.color.BLACK)
             ac.draw_text("Loading", 200, 200, font_size=15)
         else:
             ac.draw_lrwh_rectangle_textured(0, 0, self.SCENE_WIDTH, self.SCENE_HEIGHT, self.background)
-            ac.draw_text(self.text, 300, 600, font_size=15)
-        self.characters_list.draw()
-        self.objects_list.draw()
+            ac.draw_text(self.title, 300, 600, font_size=15)
 
-        if self.animation_list:
-            self.animation_list.draw()
+        self.characters_list.draw()
+        self.items_list.draw()
+
+        if self.action_list:
+            self.action_list.draw()
+
         self.front_objects_list.draw()
         ac.finish_render()
 
     def on_update(self, delta_time):
-        self.j += 1
+        self.frame += 1
 
-        if self.animation_list:
+        if self.action_list:
             self.action.center_x += self.update_center_x
-            self.animation_list.update_animation()
+            self.action_list.update_animation()
 
-        if self.j == int(self.animation_break * 2 / 3) and "Location change" in self.text:
+        if self.frame == int(self.animation_break * 2 / 3) and "Location change" in self.title:
             self.front_objects_list = ac.SpriteList()
             self.background = ac.load_texture(f"{self.BACKGROUND_PATH}/back/{self.second_location.name}_back.png",
                                               width=self.BACKGROUND_WIDTH, height=self.BACKGROUND_HEIGHT)
-            if self.second_location_front:
-                self.load_front_object(self.second_location.name, self.second_location_front)
+            if self.second_location_front_objects:
+                self.load_front_object(self.second_location.name, self.second_location_front_objects)
 
             self.action.center_x = self.initial_center_x
             self.characters_list = ac.SpriteList()
@@ -85,9 +88,9 @@ class SceneController(ac.Window, CommonVariables):
             self.characters_list.draw()
             self.load_location_items(self.second_location.items)
 
-        elif self.j == self.animation_break:
+        elif self.frame == self.animation_break:
             self.draw_loading_view()
-        elif self.j == (self.animation_break + 10):
+        elif self.frame == (self.animation_break + 10):
             self.clean_data_and_exit_view()
 
     def load_front_object(self, location_name, location_front):
@@ -107,8 +110,7 @@ class SceneController(ac.Window, CommonVariables):
                                                     item)
                 action_file = pim.open(file_path)
                 height, width = self.get_image_size(action["x"], action_file, action_data["frames"])
-
-                self.animation_list = ac.SpriteList()
+                self.action_list = ac.SpriteList()
                 self.action = ac.AnimatedTimeBasedSprite(file_path, center_x=action[self.CENTER_X_KEY],
                                                          center_y=action[self.CENTER_Y_KEY], image_x=0, image_y=0,
                                                          image_width=width, image_height=height,
@@ -123,14 +125,14 @@ class SceneController(ac.Window, CommonVariables):
                         texture = ac.load_texture(file_path, x=i*width, y=0, width=width, height=height)
                         self.action.frames.append(ac.AnimationKeyframe(i, action_data["duration"], texture))
 
-                self.animation_list.append(self.action)
+                self.action_list.append(self.action)
                 break
 
     def load_characters(self, characters):
         i = 0
 
         for character in characters:
-            character_image = pim.open(f"{self.CHARACTER_PATH}/{character.name}/{character.name}.png")
+            character_image = pim.open(f"{self.CHARACTERS_LIST_PATH}/{character.name}/{character.name}.png")
             width = character_image.width
             height = character_image.height
             center_x = 0.5 * width * self.SCALE + 10 + i
@@ -159,7 +161,7 @@ class SceneController(ac.Window, CommonVariables):
             self.item_sprite = ac.Sprite(image.filename, center_x=center_x, center_y=100,
                                          image_x=0, image_y=0, image_width=image.width, image_height=image.height,
                                          scale=self.ITEM_SCALE)
-            self.objects_list.append(self.item_sprite)
+            self.items_list.append(self.item_sprite)
 
     def load_character_items(self, character, center_x, width):
         k = 0
@@ -195,12 +197,12 @@ class SceneController(ac.Window, CommonVariables):
 
     def get_animation_file(self, action_type, template, characters, item=None):
         if action_type == "one_character":
-            file_path = GeneratePNGFiles().generate_png_one_character(template, characters[0].name.lower())
+            file_path = PNGFileGenerator().generate_png_one_character(template, characters[0].name.lower())
         elif action_type == "two_characters":
-            file_path = GeneratePNGFiles().generate_png_two_characters(template, characters[0].name.lower(),
+            file_path = PNGFileGenerator().generate_png_two_characters(template, characters[0].name.lower(),
                                                                        characters[0].name.lower())
         elif action_type == "two_characters_one_item":
-            file_path = GeneratePNGFiles().generate_png_two_characters_one_item(template,
+            file_path = PNGFileGenerator().generate_png_two_characters_one_item(template,
                                                                                 characters[0].name.lower(),
                                                                                 characters[0].name.lower(), item)
 
@@ -219,9 +221,9 @@ class SceneController(ac.Window, CommonVariables):
     def draw_loading_view(self):
         self.front_objects_list = ac.SpriteList()
         self.characters_list = ac.SpriteList()
-        self.objects_list = ac.SpriteList()
+        self.items_list = ac.SpriteList()
         self.background = None
-        self.animation_list = None
+        self.action_list = None
         ac.draw_lrtb_rectangle_filled(0, self.SCENE_WIDTH, self.SCENE_HEIGHT, 0, ac.color.BLACK)
 
     def clean_data_and_exit_view(self):

@@ -1,12 +1,12 @@
 from data.common_variables import CommonVariables
-from helpers.json_operations import JsonOperation
+from helpers.json_operations import JsonOperations
 from scene_controller import SceneController
 
 
 class Animation(CommonVariables):
 
     def __init__(self):
-        self.json_operation = JsonOperation()
+        self.json_operation = JsonOperations()
         self.json_operation.prepare_data_for_animation(self.GAMEPLAY_PATH)
         self.scene_controller = SceneController(self.SCENE_WIDTH, self.SCENE_HEIGHT)
 
@@ -22,18 +22,19 @@ class Animation(CommonVariables):
         self.filter_out_items(move)
 
     def setup_scene(self, move):
-        location = self.prepare_location_for_animation(move)
+        location_front_object = self.get_location_front_objects(move)
 
         if len(move.locations) == 2:
             try:
-                second_location = self.json_operation.frontground_data[move.locations[1].name]
+                second_location_front_object = self.json_operation.location_front_objects[move.locations[1].name]
             except KeyError:
-                second_location = None
+                second_location_front_object = None
 
-            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, move.items,
-                                        second_location, move.locations[1])
+            self.scene_controller.setup(location_front_object, move.locations[0], move.characters, move.title,
+                                        move.items, second_location_front_object, move.locations[1])
         else:
-            self.scene_controller.setup(location, move.locations[0], move.characters, move.title, move.items)
+            self.scene_controller.setup(location_front_object, move.locations[0], move.characters, move.title,
+                                        move.items)
 
     def filter_out_characters(self, move):
         for character in move.characters:
@@ -60,13 +61,13 @@ class Animation(CommonVariables):
                 print(f"Location {move.locations[0].id} has no items")
                 break
 
-    def prepare_location_for_animation(self, move):
+    def get_location_front_objects(self, move):
         try:
-            location = self.json_operation.frontground_data[move.locations[0].name]
+            location_front_object = self.json_operation.location_front_objects[move.locations[0].name]
         except KeyError:
-            location = None
+            location_front_object = None
 
-        return location
+        return location_front_object
 
 
 def main():

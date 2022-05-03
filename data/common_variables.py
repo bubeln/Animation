@@ -12,20 +12,20 @@ class CommonVariables:
     NODE_NAME_KEY = "WorldNodeName"
 
     # ---- GRAPHICS OBJECT KEYS ---- #
-    WIDTH_KEY = "width"
-    HEIGHT_KEY = "height"
     CENTER_X_KEY = "center_x"
     CENTER_Y_KEY = "center_y"
+    HEIGHT_KEY = "height"
     IMAGE_X_KEY = "image_x"
     IMAGE_Y_KEY = "image_y"
+    WIDTH_KEY = "width"
 
     # ---- PATHS ---- #
+    ACTIONS_TEMPLATE_PATH = "../graphics/actions_template"
     BACKGROUND_PATH = "../graphics/backgrounds"
-    CHARACTER_PATH = "../graphics/characters"
+    CHARACTERS_LIST_PATH = "../graphics/characters"
     DATA_PATH = "../data"
     GAMEPLAY_PATH = "../productions/gameplay.json"
     OBJECT_PATH = "../graphics/objects"
-    SIZE_FILE_PATH = "../data/graphics_size"
 
     # ---- GRAPHICS SIZE ---- #
     BACKGROUND_WIDTH = 1004

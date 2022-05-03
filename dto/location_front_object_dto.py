@@ -1,4 +1,4 @@
-class FrontgroundDTO:
+class LocationFrontObjectDTO:
 
     def __init__(self, width, height, center_x, center_y, image_x, image_y):
         self.width = width
