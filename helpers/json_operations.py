@@ -129,7 +129,6 @@ class JsonOperations(CommonVariables):
         node_type = type(node)
 
         if operator == "move":
-        #TODO check fight with character's escape, if removing item from characters, remove it also from location.character
             if node_type == CharacterDTO:
                 tmp = self.world_locations[source.id].characters[node.id]
                 self.world_locations[target.id].characters[node.id] = tmp
